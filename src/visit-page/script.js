@@ -1,8 +1,13 @@
 window.addEventListener("DOMContentLoaded", init);
 
-async function init() {}
+async function init() {
+  hideElement("home-page-button");
+  animateText(() => {
+    unhideElement("home-page-button");
+  });
+}
 
-document.addEventListener("DOMContentLoaded", function () {
+function animateText(callback) {
   const textElement = document.getElementById("animated-text");
   const textContent = textElement.textContent;
   const cursor = document.getElementById("cursor");
@@ -18,6 +23,19 @@ document.addEventListener("DOMContentLoaded", function () {
     charIndex++;
     if (charIndex === splitText.length) {
       clearInterval(timer);
+      if (callback) {
+        callback();
+      }
     }
   }, 100);
-});
+}
+
+function hideElement(elementId) {
+  const element = document.getElementById(elementId);
+  element.style.visibility = "hidden";
+}
+
+function unhideElement(elementId) {
+  const element = document.getElementById(elementId);
+  element.style.visibility = "visible";
+}
