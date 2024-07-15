@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phoebe Tang</title>
     <link rel="stylesheet" href="../assets/styles/main.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <script src="./script.js"></script>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="main-nav">
         <ul class="nav-links">
           <li><a href="" class="active">Home</a></li>
           <li><a href="../about/">About</a></li>
@@ -17,6 +18,24 @@
         </ul>
       </nav>
     </header>
-    <!-- <section class="about-me"></section> -->
+    <section class="main-page-section">
+      <div class="about-me-container">
+        <img
+          id="beach-portrait"
+          src="../assets/imgs/portrait-beach.jpeg"
+          alt="portrait-photo-beach"
+        />
+        <span class="about-me-description"
+          >Hello, my name is Phoebe Tang, and I am from the bay area,
+          California. I am currently a Computer Science Master's student at
+          Columbia University specializing in Machine Learning. In my free time,
+          I like to dance, paint, and code! More about me on the
+          <a href="../about/">About</a> page.</span
+        >
+      </div>
+    </section>
+    <section class="main-page-section">
+      <div class="home-food-container"></div>
+    </section>
   </body>
 </html>
