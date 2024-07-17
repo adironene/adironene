@@ -5,37 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phoebe Tang</title>
     <link rel="stylesheet" href="../assets/styles/main.css" />
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="./script.js"></script>
   </head>
   <body>
     <header>
-      <nav class="main-nav">
-        <ul class="nav-links">
-          <li><a href="" class="active">Home</a></li>
-          <li><a href="../about/">About</a></li>
-          <li><a href="../contact/">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="header-content">
+        <div class="main-textblock">
+          <h1>Phoebe Tang's Personal Website</h1>
+          <div class="animated-text" id="animated-text">
+            Hello, welcome to my website ^·-·^. Please scroll to see more!
+            <span class="cursor" id="cursor">|</span>
+          </div>
+        </div>
+      </div>
     </header>
     <section class="main-page-section">
-      <div class="about-me-container">
-        <img
-          id="beach-portrait"
-          src="../assets/imgs/portrait-beach.jpeg"
-          alt="portrait-photo-beach"
-        />
-        <span class="about-me-description"
-          >Hello, my name is Phoebe Tang, and I am from the bay area,
-          California. I am currently a Computer Science Master's student at
-          Columbia University specializing in Machine Learning. In my free time,
-          I like to dance, paint, and code! More about me on the
-          <a href="../about/">About</a> page.</span
+      <div class="about-me-container" id="about-me">
+        <span class="about-me-description">
+          <h1>About Me</h1>
+          Hello, my name is Phoebe Tang, and I am from Pleasanton, California. I
+          am currently a Computer Science Master's student at Columbia
+          University specializing in Machine Learning. In my free time, I like
+          to dance, paint, code, and go out with friends to try new food and
+          drinks!</span
         >
+        <img
+          src="../assets/imgs/geisel_grad.jpeg"
+          class="about-me-img"
+          alt="geisel-portrait"
+          height="600"
+        />
       </div>
     </section>
     <section class="main-page-section">
-      <div class="home-food-container"></div>
+      <div class="food-container">
+        <div class="food-description">
+          <h2>Food Diary!</h2>
+          As I briefly mentioned above, I am a really big foodie! I like trying
+          out different restaurants around me and taking food pics. As such, I
+          decided to use my website as a food journal. Feel free to visit my
+          food library page if you are interested!
+        </div>
+        <div class="food-imgs-container">
+          <img
+            src="../assets/imgs/food/food1.png"
+            alt="food-pic"
+            height="400"
+          />
+          <img
+            src="../assets/imgs/food/food2.png"
+            alt="food-pic"
+            height="400"
+          />
+          <img
+            src="../assets/imgs/food/food3.png"
+            alt="food-pic"
+            height="400"
+          />
+        </div>
+      </div>
     </section>
+    <footer>
+      <div class="footer-container">
+          <div class="footer-column">
+              <h3>About Me</h3>
+              <p>I am a Computer Science Master's Student. To Learn more, go to the <a href="#about-me">About Section</a>.</p>
+          </div>
+          <div class="footer-column">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="https://github.com/adironene/adironene">Home</a></li>
+                  <li><a href="#about-me">About Me</a></li>
+                  <li><a href="">Source Code</a></li>
+              </ul>
+          </div>
+          <div class="footer-column">
+              <h3>Follow Me</h3>
+              <ul>
+                  <li><a href="https://github.com/adironene">Github</a></li>
+                  <li><a href="https://www.linkedin.com/in/adironene/">LinkedIn</a></li>
+                  <li><a href="https://instagram.com/phoebe_zebra">Instagram</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2024 Feiyang Tang. All rights reserved.
+      </div>
+  </footer>
   </body>
+  <script src="./script.js"></script>
 </html>
