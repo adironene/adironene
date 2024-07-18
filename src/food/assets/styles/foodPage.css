@@ -1,0 +1,29 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.text-container{
+    padding-left: 5vw;
+    color: white;
+}
+
+main {
+  column-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 90vw;
+  row-gap: 10px;
+}
