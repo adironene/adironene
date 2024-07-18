@@ -28,11 +28,11 @@ h1 {
   font-weight: bolder;
 }
 
-.main-textblock {
+.header-textblock {
   animation: change-colors 5s infinite alternate;
 }
 
-.animated-text {
+.header-description {
   max-width: 40vw;
   font-size: 1.5em;
   animation: fade-out linear;
@@ -83,36 +83,35 @@ h1 {
 }
 
 .main-page-section {
-  height: 70vh;
   padding: 20px 30px;
   display: flex;
   justify-content: center;
   color: rgb(187, 255, 255);
 }
 
-.about-me-container {
+.column-container {
   display: flex;
   justify-content: space-between;
   padding: 30px;
 }
 
-.about-me-container::before,
-.about-me-container::after {
+.column-container::before,
+.column-container::after {
   content: "";
   background: #11aa9b;
 }
 
-.about-me-container::before {
+.column-container::before {
   top: 0;
   left: 0;
   width: 100px;
   height: 5px;
 }
 
-.about-me-container::after {
+.column-container::after {
   top: 0;
   left: 0;
-  width: 5px;
+  width: 15px;
   height: 600px;
 }
 
@@ -126,7 +125,7 @@ h1 {
   margin-right: 30px;
 }
 
-.food-container {
+.vertical-container {
   font-size: 2vh;
   border-top: dashed #11aa9b;
   gap: 30px;
@@ -139,7 +138,7 @@ h1 {
   padding: 30px;
 }
 
-.food-imgs-container {
+.imgs-container {
   display: flex;
   justify-content: space-around;
 }
@@ -150,7 +149,7 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
-footer a{
+footer a {
   color: rgb(187, 255, 255);
   text-decoration: none;
   cursor: url("../imgs/cursor.png"), auto;
@@ -187,4 +186,8 @@ footer a{
 .footer-bottom {
   margin-top: 20px;
   font-size: 0.9em;
+}
+
+.home-img {
+  height: 30vh;
 }

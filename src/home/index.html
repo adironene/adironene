@@ -9,9 +9,9 @@
   <body>
     <header>
       <div class="header-content">
-        <div class="main-textblock">
+        <div class="header-textblock">
           <h1>Phoebe Tang's Personal Website</h1>
-          <div class="animated-text" id="animated-text">
+          <div class="header-description" id="animated-text">
             Hello, welcome to my website ^·-·^. Please scroll to see more!
             <span class="cursor" id="cursor">|</span>
           </div>
@@ -19,7 +19,7 @@
       </div>
     </header>
     <section class="main-page-section">
-      <div class="about-me-container" id="about-me">
+      <div class="column-container" id="about-me">
         <span class="about-me-description">
           <h1>About Me</h1>
           Hello, my name is Phoebe Tang, and I am from Pleasanton, California. I
@@ -37,7 +37,7 @@
       </div>
     </section>
     <section class="main-page-section">
-      <div class="food-container">
+      <div class="vertical-container">
         <div class="food-description">
           <h2>Food Diary!</h2>
           As I briefly mentioned above, I am a really big foodie! I like trying
@@ -45,52 +45,57 @@
           decided to use my website as a food journal. Feel free to visit my
           food library page if you are interested!
         </div>
-        <div class="food-imgs-container">
+        <div class="imgs-container">
           <img
+            class="home-img"
             src="../assets/imgs/food/food1.png"
             alt="food-pic"
-            height="400"
           />
           <img
+            class="home-img"
             src="../assets/imgs/food/food2.png"
             alt="food-pic"
-            height="400"
           />
           <img
+            class="home-img"
             src="../assets/imgs/food/food3.png"
             alt="food-pic"
-            height="400"
           />
         </div>
       </div>
     </section>
     <footer>
       <div class="footer-container">
-          <div class="footer-column">
-              <h3>About Me</h3>
-              <p>I am a Computer Science Master's Student. To Learn more, go to the <a href="#about-me">About Section</a>.</p>
-          </div>
-          <div class="footer-column">
-              <h3>Quick Links</h3>
-              <ul>
-                  <li><a href="https://github.com/adironene/adironene">Home</a></li>
-                  <li><a href="#about-me">About Me</a></li>
-                  <li><a href="">Source Code</a></li>
-              </ul>
-          </div>
-          <div class="footer-column">
-              <h3>Follow Me</h3>
-              <ul>
-                  <li><a href="https://github.com/adironene">Github</a></li>
-                  <li><a href="https://www.linkedin.com/in/adironene/">LinkedIn</a></li>
-                  <li><a href="https://instagram.com/phoebe_zebra">Instagram</a></li>
-              </ul>
-          </div>
+        <div class="footer-column">
+          <h3>About Me</h3>
+          <p>
+            I am a Computer Science Master's Student. To Learn more, go to the
+            <a href="#about-me">About Section</a>.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="https://github.com/adironene/adironene">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="">Source Code</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Me</h3>
+          <ul>
+            <li><a href="https://github.com/adironene">Github</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/adironene/">LinkedIn</a>
+            </li>
+            <li><a href="https://instagram.com/phoebe_zebra">Instagram</a></li>
+          </ul>
+        </div>
       </div>
       <div class="footer-bottom">
-          &copy; 2024 Feiyang Tang. All rights reserved.
+        &copy; 2024 Feiyang Tang. All rights reserved.
       </div>
-  </footer>
+    </footer>
   </body>
   <script src="./script.js"></script>
 </html>
