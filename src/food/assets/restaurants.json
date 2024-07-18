@@ -1,0 +1,101 @@
+[
+    {
+      "imgSrc": "../food/assets/imgs/pleasanton/localPoke.jpeg",
+      "imgAlt": "Poke Bowl",
+      "titleLnk": "https://www.localpoke.co/",
+      "titleTxt": "Local Poke",
+      "rating": 3.5,
+      "location": "Pleasanton, CA",
+      "date-visited":"07-18-2024"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/sf/waterbar2.png",
+      "imgAlt": "A5 Wagyu Plate",
+      "titleLnk": "https://www.waterbarsf.com/",
+      "titleTxt": "Water Bar",
+      "rating": 4.5,
+      "location": "San Francisco, CA",
+      "date-visited":"07-14-2024"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/oakland/farmhousethai1.png",
+      "imgAlt": "Vegetable Rolls",
+      "titleLnk": "https://farmhousethai.com/oakland",
+      "titleTxt": "Farmhouse Kitchen Thai",
+      "rating": 4.8,
+      "location": "Oakland, CA",
+      "date-visited":"07-07-2024"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/dublin/koipalace1.png",
+      "imgAlt": "Roasted Duck",
+      "titleLnk": "https://maps.app.goo.gl/uGK5ERaREFwvnr3dA",
+      "titleTxt": "Koi Palace",
+      "rating": 3.8,
+      "location": "Dublin, CA",
+      "date-visited":"06-23-2024"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/monello1.png",
+      "imgAlt": "Grilled Octupus",
+      "titleLnk": "https://www.lovemonello.com/",
+      "titleTxt": "Monello",
+      "rating": 3.7,
+      "location": "San Diego, CA",
+      "date-visited":"06-16-2024, 02-16-2024"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/herbandwood1.png",
+      "imgAlt": "Bone Marrow and Oysters",
+      "titleLnk": "https://www.herbandwood.com/",
+      "titleTxt": "Herb and Wood",
+      "rating": 4.5,
+      "location": "San Diego, CA",
+      "date-visited":"06-15-2024, 02-15-2024"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/ironside2.png",
+      "imgAlt": "Oysters",
+      "titleLnk": "https://ironsidefishandoyster.com/",
+      "titleTxt": "Ironside",
+      "rating": 4.8,
+      "location": "San Diego, CA",
+      "date-visited":"04-23-24"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/LA/katana1shifted.png",
+      "imgAlt": "lamb chops",
+      "titleLnk": "https://www.katanarobata.com/",
+      "titleTxt": "Katana LA",
+      "rating": 5,
+      "location": "Los Angeles, CA",
+      "date-visited":"04-04-24"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/easterndynasty1.png",
+      "imgAlt": "Kung Pao Chicken",
+      "titleLnk": "https://maps.app.goo.gl/WyEBy9Qi52S9saKFA",
+      "titleTxt": "Eastern Dynasty",
+      "rating": 4.1,
+      "location": "San Diego, CA",
+      "date-visited":"03-18-2024, 05-05-2024"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/flamallama1.png",
+      "imgAlt": "steak and rice",
+      "titleLnk": "https://www.flamallama.com/",
+      "titleTxt": "Flama Llama",
+      "rating": 3.7,
+      "location": "San Diego, CA",
+      "date-visited":"03-07-2024"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/pleasanton/elia1.png",
+      "imgAlt": "lamb chops",
+      "titleLnk": "https://www.eliarestaurants.com/",
+      "titleTxt": "Elia",
+      "rating": 3.5,
+      "location": "San Diego, CA",
+      "date-visited":"03-03-2024"
+    }
+  ]
