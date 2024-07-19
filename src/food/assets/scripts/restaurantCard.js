@@ -1,4 +1,4 @@
-import * as util from '../../../assets/scripts/util.js'
+import * as util from '../../../assets/scripts/util.js';
 
 class restaurantCard extends HTMLElement {
   constructor() {
@@ -14,56 +14,63 @@ class restaurantCard extends HTMLElement {
     shadow.appendChild(markup);
   }
 
-  /**
-   * Called when the .data property is set on this element.
-   * @param {Object} data - The data to pass into the <recipe-card> must be of the
-   *                        following format:
-   *                        {
-   *                          "imgSrc": "string",
-   *                          "imgAlt": "string",
-   *                          "titleLnk": "string",
-   *                          "titleTxt": "string",
-   *                          "rating": number,
-   *                          "location": "string"
-   *                        }
-   */
   set data(data) {
-    // If nothing was passed in, return
     if (!data) return;
 
     const article = this.shadowRoot.querySelector("article");
-    let starsHTML = "";
+    article.innerHTML = '';
+
+    const img = document.createElement('img');
+    img.src = data.imgSrc;
+    img.alt = data.imgAlt;
+    article.appendChild(img);
+
+    const titleP = document.createElement('p');
+    titleP.className = 'title';
+    const titleA = document.createElement('a');
+    titleA.href = data.titleLnk;
+    titleA.textContent = data.titleTxt;
+    titleP.appendChild(titleA);
+    article.appendChild(titleP);
+
+    const ratingDiv = document.createElement('div');
+    ratingDiv.className = 'rating';
+    const ratingSpan = document.createElement('span');
+    ratingSpan.textContent = data.rating;
+    ratingDiv.appendChild(ratingSpan);
+
+    let starsHTML = '';
     const fullStars = Math.floor(data.rating);
     const decimalPart = data.rating % 1;
 
-    // Generate full stars
     for (let i = 0; i < fullStars; i++) {
-      starsHTML += `<div class="star-container"><img src='../food/assets/imgs/icons/cat_star.png' alt="full star"></div>`;
+      const starContainer = document.createElement('div');
+      starContainer.className = 'star-container';
+      const starImg = document.createElement('img');
+      starImg.src = '../food/assets/imgs/icons/cat_star.png';
+      starImg.alt = 'full star';
+      starContainer.appendChild(starImg);
+      ratingDiv.appendChild(starContainer);
     }
 
-    // Generate partial star if needed
     if (decimalPart > 0) {
-      starsHTML += `
-            <div class="star-container" style="width: ${decimalPart * 24}px;">
-              <img src='../food/assets/imgs/icons/cat_star.png' alt="partial star">
-            </div>
-          `;
+      const partialStarContainer = document.createElement('div');
+      partialStarContainer.className = 'star-container';
+      partialStarContainer.style.width = `${decimalPart * 24}px`;
+      const partialStarImg = document.createElement('img');
+      partialStarImg.src = '../food/assets/imgs/icons/cat_star.png';
+      partialStarImg.alt = 'partial star';
+      partialStarContainer.appendChild(partialStarImg);
+      ratingDiv.appendChild(partialStarContainer);
     }
-    article.innerHTML = `
-      <img src="${data.imgSrc}"
-        alt="${data.imgAlt}">
-      <p class="title">
-        <a href="${data.titleLnk}">${data.titleTxt}</a>
-      </p>
-      <div class="rating">
-        <span>${data.rating}</span>
-        ${starsHTML}
-      </div>
-      <p class="location">
-        ${data.location}
-      </p>
-    `;
+
+    article.appendChild(ratingDiv);
+
+    const locationP = document.createElement('p');
+    locationP.className = 'location';
+    locationP.textContent = data.location;
+    article.appendChild(locationP);
   }
 }
 
-customElements.define("restaurant-card", restaurantCard);
+customElements.define('restaurant-card', restaurantCard);

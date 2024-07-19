@@ -5,7 +5,7 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: rgb(238, 238, 238);
 }
 
 .card-container {
@@ -16,7 +16,6 @@ body {
 
 .text-container{
     padding-left: 5vw;
-    color: white;
 }
 
 main {
@@ -25,5 +24,6 @@ main {
   flex-wrap: wrap;
   height: auto;
   max-width: 90vw;
-  row-gap: 10px;
+  gap: 20px;
+  row-gap: 20px;
 }
