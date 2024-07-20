@@ -6,7 +6,42 @@
       "titleTxt": "Local Poke",
       "rating": 3.5,
       "location": "Pleasanton, CA",
-      "date-visited":"07-18-2024"
+      "date-visited":"07-18-2024",
+      "price":"$",
+      "cuisine":"Poke"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/santa-clara/rantei2.png",
+      "imgAlt": "sashimi",
+      "titleLnk": "https://ranteijapanesecuisine.com/",
+      "titleTxt": "Rantei",
+      "rating": 3.7,
+      "location": "Santa Clara, CA",
+      "date-visited":"07-18-2024",
+      "price":"$$$",
+      "cuisine":"Japanese"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/san-ramon/ramenHiroshi.png",
+      "imgAlt": "ramen",
+      "titleLnk": "https://maps.app.goo.gl/f8QyRVn53DDLe38r6",
+      "titleTxt": "Ramen Hiroshi",
+      "rating": 1.5,
+      "location": "San Ramon, CA",
+      "date-visited":"07-17-2024",
+      "price":"$",
+      "cuisine":"Ramen"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/san-ramon/bobaguys2.png",
+      "imgAlt": "matcha boba",
+      "titleLnk": "https://www.bobaguys.com/",
+      "titleTxt": "Boba Guys",
+      "rating": 3.8,
+      "location": "San Ramon, CA",
+      "date-visited":"07-17-2024",
+      "price":"$",
+      "cuisine":"Tea"
     },
     {
       "imgSrc": "../food/assets/imgs/sf/waterbar2.png",
@@ -15,25 +50,42 @@
       "titleTxt": "Water Bar",
       "rating": 4.5,
       "location": "San Francisco, CA",
-      "date-visited":"07-14-2024"
+      "date-visited":"07-14-2024",
+      "price":"$$$$",
+      "cuisine":"Seafood"
     },
     {
-      "imgSrc": "../food/assets/imgs/oakland/farmhousethai1.png",
-      "imgAlt": "Vegetable Rolls",
-      "titleLnk": "https://farmhousethai.com/oakland",
-      "titleTxt": "Farmhouse Kitchen Thai",
-      "rating": 4.8,
-      "location": "Oakland, CA",
-      "date-visited":"07-07-2024"
+      "imgSrc": "../food/assets/imgs/san-jose/sanraku1.png",
+      "imgAlt": "roasted duck",
+      "titleLnk": "https://www.sanraku.com/",
+      "titleTxt": "sanraku",
+      "rating": 4.5,
+      "location": "San Jose, CA",
+      "date-visited":"07-13-2024",
+      "price":"$$",
+      "cuisine":"Japanese"
     },
     {
-      "imgSrc": "../food/assets/imgs/dublin/koipalace1.png",
-      "imgAlt": "Roasted Duck",
-      "titleLnk": "https://maps.app.goo.gl/uGK5ERaREFwvnr3dA",
-      "titleTxt": "Koi Palace",
-      "rating": 3.8,
-      "location": "Dublin, CA",
-      "date-visited":"06-23-2024"
+      "imgSrc": "../food/assets/imgs/berkeley/gypsy.png",
+      "imgAlt": "marinara gnocchi",
+      "titleLnk": "https://www.gypsysitaliana.com/",
+      "titleTxt": "Gypsy's Trattoria",
+      "rating": "4.2",
+      "location": "Berkeley, CA",
+      "date-visited":"06-25-2024",
+      "price":"$",
+      "cuisine":"Italian"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/pleasanton/pastasTrattoria1.png",
+      "imgAlt": "pasta",
+      "titleLnk": "https://www.pastastrattoriapleasanton.com/",
+      "titleTxt": "Pastas Trattoria",
+      "rating": 1.0,
+      "location": "Pleasanton, CA",
+      "date-visited":"06-24-2024",
+      "price":"$$",
+      "cuisine":"Italian"
     },
     {
       "imgSrc": "../food/assets/imgs/SD/monello1.png",
@@ -42,7 +94,9 @@
       "titleTxt": "Monello",
       "rating": 3.7,
       "location": "San Diego, CA",
-      "date-visited":"06-16-2024, 02-16-2024"
+      "date-visited":"06-16-2024, 02-16-2024",
+      "price":"$$",
+      "cuisine":"Italian"
     },
     {
       "imgSrc": "../food/assets/imgs/SD/herbandwood1.png",
@@ -51,7 +105,75 @@
       "titleTxt": "Herb and Wood",
       "rating": 4.5,
       "location": "San Diego, CA",
-      "date-visited":"06-15-2024, 02-15-2024"
+      "date-visited":"06-15-2024, 02-15-2024",
+      "price":"$$$",
+      "cuisine":"Mediterranean"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/shankandbone1.png",
+      "imgAlt": "clams",
+      "titleLnk": "https://www.shankandbone.com/",
+      "titleTxt": "Shank and Bone",
+      "rating": "5",
+      "location": "San Diego, CA",
+      "date-visited":"06-13-2024, 10-22-2024",
+      "price":"$$",
+      "cuisine":"Vietnamese"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/jeuneEtJolie1.png",
+      "imgAlt": "roasted pork",
+      "titleLnk": "http://jeune-jolie.com/",
+      "titleTxt": "Jeune et Jolie",
+      "rating": "4.7",
+      "location": "San Diego, CA",
+      "date-visited":"06-12-2024",
+      "price":"$$$$",
+      "cuisine":"French"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/isola1.png",
+      "imgAlt": "fish appetizer",
+      "titleLnk": "http://www.isolapizzabar.com/",
+      "titleTxt": "Isola",
+      "rating": "4.5",
+      "location": "San Diego, CA",
+      "date-visited":"06-06-2024",
+      "price":"$$",
+      "cuisine":"Italian"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/menyaUltra2.png",
+      "imgAlt": "Ramen",
+      "titleLnk": "https://menya-ultra.com/",
+      "titleTxt": "Menya Ultra",
+      "rating": "0.5",
+      "location": "San Diego, CA",
+      "date-visited":"06-06-2024",
+      "price":"$",
+      "cuisine":"Ramen"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/shiku2.png",
+      "imgAlt": "nigiri",
+      "titleLnk": "http://www.shikusushibar.com/",
+      "titleTxt": "Shiku",
+      "rating": "4.7",
+      "location": "San Diego, CA",
+      "date-visited":"06-02-2024",
+      "price":"$$",
+      "cuisine":"Japanese"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/SD/dintaifung1.png",
+      "imgAlt": "spicy noodle",
+      "titleLnk": "https://dintaifungusa.com/us/locations/san-diego.html",
+      "titleTxt": "Din Tai Fung",
+      "rating": "4.6",
+      "location": "San Diego, CA",
+      "date-visited":"05-27-2024",
+      "price":"$$$",
+      "cuisine":"Taiwanese"
     },
     {
       "imgSrc": "../food/assets/imgs/SD/ironside2.png",
@@ -60,7 +182,9 @@
       "titleTxt": "Ironside",
       "rating": 4.8,
       "location": "San Diego, CA",
-      "date-visited":"04-23-24"
+      "date-visited":"04-23-24",
+      "price":"$$$",
+      "cuisine":"Seafood"
     },
     {
       "imgSrc": "../food/assets/imgs/LA/katana1shifted.png",
@@ -69,7 +193,9 @@
       "titleTxt": "Katana LA",
       "rating": 5,
       "location": "Los Angeles, CA",
-      "date-visited":"04-04-24"
+      "date-visited":"04-04-24",
+      "price":"$$$",
+      "cuisine":"Japanese"
     },
     {
       "imgSrc": "../food/assets/imgs/SD/easterndynasty1.png",
@@ -78,7 +204,9 @@
       "titleTxt": "Eastern Dynasty",
       "rating": 4.1,
       "location": "San Diego, CA",
-      "date-visited":"03-18-2024, 05-05-2024"
+      "date-visited":"03-18-2024, 05-05-2024",
+      "price":"$$",
+      "cuisine":"Chinese"
     },
     {
       "imgSrc": "../food/assets/imgs/SD/flamallama1.png",
@@ -87,7 +215,9 @@
       "titleTxt": "Flama Llama",
       "rating": 3.7,
       "location": "San Diego, CA",
-      "date-visited":"03-07-2024"
+      "date-visited":"03-07-2024",
+      "price":"$$",
+      "cuisine":"Latin American"
     },
     {
       "imgSrc": "../food/assets/imgs/pleasanton/elia1.png",
@@ -96,6 +226,19 @@
       "titleTxt": "Elia",
       "rating": 3.5,
       "location": "San Diego, CA",
-      "date-visited":"03-03-2024"
+      "date-visited":"03-03-2024",
+      "price":"$$",
+      "cuisine":"Greek"
+    },
+    {
+      "imgSrc": "../food/assets/imgs/",
+      "imgAlt": "",
+      "titleLnk": "",
+      "titleTxt": "",
+      "rating": "",
+      "location": "",
+      "date-visited":"",
+      "price":"",
+      "cuisine":""
     }
-  ]
+]
