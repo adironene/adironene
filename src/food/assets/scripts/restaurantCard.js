@@ -70,6 +70,11 @@ class restaurantCard extends HTMLElement {
     locationP.className = 'location';
     locationP.textContent = data.location;
     article.appendChild(locationP);
+
+    const priceAndCuisine = document.createElement('span');
+    priceAndCuisine.className = 'col-span';
+    priceAndCuisine.textContent = data.price + " - " + data.cuisine;
+    article.appendChild(priceAndCuisine);
   }
 }
 

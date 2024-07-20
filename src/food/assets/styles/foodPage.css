@@ -1,29 +1,38 @@
-* {
-  font-family: sans-serif;
+html,
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(238, 238, 238);
+  cursor: url("../../../assets/imgs/cursor.png"), auto;
 }
 
-body {
-  height: 100%;
-  width: 100%;
-  background-color: rgb(238, 238, 238);
+header {
+  font-family: andale mono, monospace;
+  padding: 20px 5vw;
+  font-size: 4vh;
+  box-shadow: 0px 5px 20px rgb(66, 66, 66);
 }
 
 .card-container {
   display: flex;
   justify-content: center;
-  padding-top: 5vh;
+  padding-bottom: 5vw;
 }
 
-.text-container{
-    padding-left: 5vw;
+.text-container {
+  font-family: sans-serif;
+  padding: 20px 5vw;
 }
 
 main {
-  column-gap: 10px;
   display: flex;
   flex-wrap: wrap;
   height: auto;
   max-width: 90vw;
   gap: 20px;
-  row-gap: 20px;
+}
+
+.res-num {
+  font-size: 2.5vh;
 }

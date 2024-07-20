@@ -15,6 +15,7 @@ article {
   align-items: center;
   height: 400px;
   width: 300px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(201, 196, 196, 0.5),
     0 6px 20px rgba(104, 104, 104, 0.5);
 }

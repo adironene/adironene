@@ -5,7 +5,13 @@ window.addEventListener("DOMContentLoaded", init);
 async function init() {
   try {
     let restaurants = await util.fetchJSONData();
-    addRestaurantsToDocument(restaurants);
+    let restaurantsNumDiv = document.getElementById("text-container");
+    const span = document.createElement("span");
+    let numCards = 20;
+    span.textContent = numCards + " of " + restaurants.length + " Restaurants Visited";
+    span.className = "res-num";
+    restaurantsNumDiv.appendChild(span);
+    addRestaurantsToDocument(restaurants, numCards);
   } catch (error) {
     console.error("Error fetching JSON data:", error);
   }
@@ -18,11 +24,17 @@ async function init() {
  * to <main>
  * @param {Array<Object>} restaurants An array of restaurants
  */
-function addRestaurantsToDocument(restaurants) {
+function addRestaurantsToDocument(restaurants, n) {
   const mainElement = document.querySelector("main");
-  restaurants.forEach((restaurant) => {
+  for(let i = 0; i < n; i++){
+    const restaurant = restaurants[i];
     const restaurantCard = document.createElement("restaurant-card");
     restaurantCard.data = restaurant;
     mainElement.appendChild(restaurantCard);
-  });
+  }
+//   restaurants.forEach((restaurant) => {
+//     const restaurantCard = document.createElement("restaurant-card");
+//     restaurantCard.data = restaurant;
+//     mainElement.appendChild(restaurantCard);
+//   });
 }
