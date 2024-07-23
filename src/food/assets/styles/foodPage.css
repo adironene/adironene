@@ -4,6 +4,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgb(238, 238, 238);
+  font-family: sans-serif;
   cursor: url("../../../assets/imgs/cursor.png"), auto;
 }
 
@@ -14,15 +15,26 @@ header {
   box-shadow: 0px 5px 20px rgb(66, 66, 66);
 }
 
+.nav-container {
+    padding: 20px 5vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pagination-button{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pagination-button:not(:disabled):hover{
+    background-color: rgb(167, 167, 167);
+}
+
 .card-container {
   display: flex;
   justify-content: center;
   padding-bottom: 5vw;
-}
-
-.text-container {
-  font-family: sans-serif;
-  padding: 20px 5vw;
 }
 
 main {

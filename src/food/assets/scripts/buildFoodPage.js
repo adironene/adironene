@@ -2,39 +2,99 @@ import * as util from "../../../assets/scripts/util.js";
 
 window.addEventListener("DOMContentLoaded", init);
 
+let currentPage = 1;
+const itemsPerPage = 20;
+let numRes = 0;
+let restaurants = [];
+
 async function init() {
   try {
-    let restaurants = await util.fetchJSONData();
-    let restaurantsNumDiv = document.getElementById("text-container");
-    const span = document.createElement("span");
-    let numCards = 20;
-    span.textContent = numCards + " of " + restaurants.length + " Restaurants Visited";
-    span.className = "res-num";
-    restaurantsNumDiv.appendChild(span);
-    addRestaurantsToDocument(restaurants, numCards);
+    restaurants = await util.fetchJSONData();
+    numRes = restaurants.length;
+    document.getElementById("prev-button").addEventListener("click", prevPage);
+    document.getElementById("next-button").addEventListener("click", nextPage);
+
+    currentPage = getPageFromUrl();
+    renderRestaurants(currentPage);
   } catch (error) {
     console.error("Error fetching JSON data:", error);
   }
 }
 
-/**
- * Takes in an array of restaurants and for each restaurant creates a
- * new <restaurant-card> element, adds the restaurant data to that card
- * using element.data = {...}, and then appends that new restaurant
- * to <main>
- * @param {Array<Object>} restaurants An array of restaurants
- */
-function addRestaurantsToDocument(restaurants, n) {
+function addRestaurantsToDocument(n) {
   const mainElement = document.querySelector("main");
-  for(let i = 0; i < n; i++){
+  for (let i = 0; i < n; i++) {
     const restaurant = restaurants[i];
     const restaurantCard = document.createElement("restaurant-card");
     restaurantCard.data = restaurant;
     mainElement.appendChild(restaurantCard);
   }
-//   restaurants.forEach((restaurant) => {
-//     const restaurantCard = document.createElement("restaurant-card");
-//     restaurantCard.data = restaurant;
-//     mainElement.appendChild(restaurantCard);
-//   });
 }
+
+function renderRestaurants(page) {
+  const mainElement = document.querySelector("main");
+  mainElement.innerHTML = "";
+  const startIndex = (page - 1) * itemsPerPage;
+  if (startIndex > numRes) return;
+  const endIndex =
+    startIndex + itemsPerPage >= numRes - 1
+      ? numRes - 1
+      : startIndex + itemsPerPage;
+  const restaurantsToDisplay = restaurants.slice(startIndex, endIndex);
+
+  let restaurantsNumDiv = document.getElementById("text-container");
+  restaurantsNumDiv.innerHTML = "";
+  const span = document.createElement("span");
+  span.textContent =
+    startIndex +
+    " - " +
+    endIndex +
+    " of " +
+    String(numRes - 1) +
+    " Restaurants";
+  span.className = "res-num";
+  restaurantsNumDiv.appendChild(span);
+
+  restaurantsToDisplay.forEach((restaurant) => {
+    const restaurantCard = document.createElement("restaurant-card");
+    restaurantCard.data = restaurant;
+    mainElement.appendChild(restaurantCard);
+  });
+
+  updateButtons();
+  updateUrl(page);
+}
+
+function updateButtons() {
+  document.getElementById("prev-button").disabled = currentPage === 1;
+  document.getElementById("next-button").disabled =
+    currentPage * itemsPerPage >= numRes;
+}
+
+function updateUrl(page) {
+  history.pushState(null, null, `?page=${page}`);
+}
+
+function nextPage() {
+  if (currentPage * itemsPerPage < numRes) {
+    currentPage++;
+    renderRestaurants(currentPage);
+  }
+}
+
+function prevPage() {
+  if (currentPage > 1) {
+    currentPage--;
+    renderRestaurants(currentPage);
+  }
+}
+
+function getPageFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  return parseInt(params.get("page")) || 1;
+}
+
+window.onload = function () {
+  currentPage = getPageFromUrl();
+  renderRestaurants(currentPage);
+};
