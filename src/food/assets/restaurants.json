@@ -154,6 +154,15 @@
     "cuisine": "Chinese"
   },
   {
+    "imgSrc": "../food/assets/imgs/oakland/farmhousethai1.png",
+    "imgAlt": "Vegetable Rolls",
+    "titleLnk": "https://farmhousethai.com/oakland",
+    "titleTxt": "Farmhouse Kitchen Thai",
+    "rating": 4.8,
+    "location": "Oakland, CA",
+    "date-visited":"07-07-2024"
+  },
+  {
     "imgSrc": "../food/assets/imgs/berkeley/gypsy.png",
     "imgAlt": "marinara gnocchi",
     "titleLnk": "https://www.gypsysitaliana.com/",
