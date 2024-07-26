@@ -1,5 +1,16 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/san-ramon/slantedDoor1.png",
+    "imgAlt": "crispy rolls",
+    "titleLnk": "https://slanteddoor-sanramon.com/",
+    "titleTxt": "The Slanted Door San Ramon",
+    "rating": 4.3,
+    "location": "San Ramon, CA" ,
+    "date-visited": "07-24-2024",
+    "price": "$$$",
+    "cuisine": "Vietnamese"
+  },
+  {
     "imgSrc": "../food/assets/imgs/pleasanton/locandaAmalfi1.png",
     "imgAlt": "grilled prawns",
     "titleLnk": "https://www.locandarestaurants.com/",
@@ -119,6 +130,17 @@
     "date-visited": "06-24-2024",
     "price": "$$",
     "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/walnutCreek/katysKreek.png",
+    "imgAlt": "crepe",
+    "titleLnk": "http://www.katyskreek.com/",
+    "titleTxt": "Katy's Kreek",
+    "rating": 4,
+    "location": "Walnut Creek, CA",
+    "date-visited": "06-23-2024",
+    "price": "$",
+    "cuisine": "Brunch"
   },
   {
     "imgSrc": "../food/assets/imgs/SD/monello1.png",
