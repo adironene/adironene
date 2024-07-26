@@ -21,16 +21,6 @@ async function init() {
   }
 }
 
-function addRestaurantsToDocument(n) {
-  const mainElement = document.querySelector("main");
-  for (let i = 0; i < n; i++) {
-    const restaurant = restaurants[i];
-    const restaurantCard = document.createElement("restaurant-card");
-    restaurantCard.data = restaurant;
-    mainElement.appendChild(restaurantCard);
-  }
-}
-
 function renderRestaurants(page) {
   const mainElement = document.querySelector("main");
   mainElement.innerHTML = "";
@@ -68,7 +58,7 @@ function renderRestaurants(page) {
 function updateButtons() {
   document.getElementById("prev-button").disabled = currentPage === 1;
   document.getElementById("next-button").disabled =
-    currentPage * itemsPerPage >= numRes;
+    currentPage * itemsPerPage >= numRes -1;
 }
 
 function updateUrl(page) {
@@ -76,7 +66,7 @@ function updateUrl(page) {
 }
 
 function nextPage() {
-  if (currentPage * itemsPerPage < numRes) {
+  if (currentPage * itemsPerPage < numRes-1) {
     currentPage++;
     renderRestaurants(currentPage);
   }

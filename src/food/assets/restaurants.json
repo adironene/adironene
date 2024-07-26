@@ -1,5 +1,16 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/walnutCreek/walnutCreekYachtClub1.png",
+    "imgAlt": "fish and chips",
+    "titleLnk": "http://www.wcyc.net/",
+    "titleTxt": "Walnut Creek Yacht Club",
+    "rating": 3.9,
+    "location": "Walnut Creek, CA" ,
+    "date-visited": "07-26-2024",
+    "price": "$$",
+    "cuisine": "Seafood"
+  },
+  {
     "imgSrc": "../food/assets/imgs/san-ramon/slantedDoor1.png",
     "imgAlt": "crispy rolls",
     "titleLnk": "https://slanteddoor-sanramon.com/",
@@ -88,6 +99,28 @@
     "cuisine": "Tea"
   },
   {
+    "imgSrc": "../food/assets/imgs/walnutCreek/hotboys.png",
+    "imgAlt": "fried chicken",
+    "titleLnk": "https://worldfamoushotboys.com/",
+    "titleTxt": "World Famous HOTBOYS Chicken",
+    "rating": 4.3,
+    "location": "Walnut Creek, CA",
+    "date-visited": "07-16-2024",
+    "price": "$",
+    "cuisine": "American"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/walnutCreek/lotties1.png",
+    "imgAlt": "ice cream cone",
+    "titleLnk": "https://www.lottiescreamery.com/",
+    "titleTxt": "Lottie's Creamery",
+    "rating": 4.5,
+    "location": "Walnut Creek, CA",
+    "date-visited": "07-16-2024",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
     "imgSrc": "../food/assets/imgs/sf/waterbar2.png",
     "imgAlt": "A5 Wagyu Plate",
     "titleLnk": "https://www.waterbarsf.com/",
@@ -108,6 +141,17 @@
     "date-visited": "07-13-2024",
     "price": "$$",
     "cuisine": "Japanese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/pleasanton/dumplingMeetsCajunSeafood1.png",
+    "imgAlt": "stir fried green beans",
+    "titleLnk": "https://www.dumplingmeetscajunseafood.com/",
+    "titleTxt": "Dumpling Meets Cajun Seafood",
+    "rating": 4.4,
+    "location": "Pleasanton, CA",
+    "date-visited": "07-10-2024, 06-20-2024",
+    "price": "$$",
+    "cuisine": "Chinese"
   },
   {
     "imgSrc": "../food/assets/imgs/berkeley/gypsy.png",
@@ -143,6 +187,28 @@
     "cuisine": "Brunch"
   },
   {
+    "imgSrc": "../food/assets/imgs/SD/ansDryCleaning1.png",
+    "imgAlt": "ice cream cone",
+    "titleLnk": "http://adcgelato.com/",
+    "titleTxt": "An's Dry Cleaning",
+    "rating": 5,
+    "location": "San Diego, CA",
+    "date-visited": "06-18-2024, 02-27-2024, 01-14-2024, 01-09-2024, 11-19-2024, 11-10-2024",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/SD/teg3.png",
+    "imgAlt": "tacos",
+    "titleLnk": "http://tacoselgordobc.com/",
+    "titleTxt": "Tacos El Gordo",
+    "rating": 5,
+    "location": "San Diego, CA",
+    "date-visited": "06-17-2024, 01-28-2024, 12-14-2024, 12-08-2024, 06-19-2023",
+    "price": "$",
+    "cuisine": "Mexican"
+  },
+  {
     "imgSrc": "../food/assets/imgs/SD/monello1.png",
     "imgAlt": "Grilled Octupus",
     "titleLnk": "https://www.lovemonello.com/",
@@ -162,6 +228,17 @@
     "location": "San Diego, CA",
     "date-visited": "06-15-2024, 02-15-2024",
     "price": "$$$",
+    "cuisine": "Mediterranean"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/SD/paniniKabobGrill1.png",
+    "imgAlt": "kabob",
+    "titleLnk": "https://paninikabobgrill.com",
+    "titleTxt": "Panini Kabob Grill",
+    "rating": 3,
+    "location": "San Diego, CA",
+    "date-visited": "06-15-2024",
+    "price": "$$",
     "cuisine": "Mediterranean"
   },
   {
@@ -185,6 +262,17 @@
     "date-visited": "06-12-2024",
     "price": "$$$$",
     "cuisine": "French"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/SD/spicyNoodle1.png",
+    "imgAlt": "spicy noodles",
+    "titleLnk": "https://www.spicynoodlesd.com/",
+    "titleTxt": "Spicy Noodle",
+    "rating": 4.8,
+    "location": "San Diego, CA",
+    "date-visited": "06-11-2024",
+    "price": "$$",
+    "cuisine": "Chinese"
   },
   {
     "imgSrc": "../food/assets/imgs/SD/phoCowCali.png",
@@ -407,6 +495,17 @@
     "cuisine": "Seafood"
   },
   {
+    "imgSrc": "../food/assets/imgs/SD/wushiland.png",
+    "imgAlt": "boba milk tea",
+    "titleLnk": "https://www.wushiland-usa.com/",
+    "titleTxt": "Wushiland",
+    "rating": 4.1,
+    "location": "San Diego, CA",
+    "date-visited": "04-22-24",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
     "imgSrc": "../food/assets/imgs/SD/tacoStand.png",
     "imgAlt": "tacos",
     "titleLnk": "http://www.letstaco.com/",
@@ -559,6 +658,17 @@
     "date-visited": "03-18-2024, 05-05-2024",
     "price": "$$",
     "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/SD/cucinaCaprese.png",
+    "imgAlt": "marinara gnocchi",
+    "titleLnk": "http://www.cucinacaprese.com/",
+    "titleTxt": "Cucina Caprese Pizzeria & Trattoria",
+    "rating": 4.2,
+    "location": "San Diego, CA",
+    "date-visited": "03-17-2024",
+    "price": "$$",
+    "cuisine": "Italian"
   },
   {
     "imgSrc": "../food/assets/imgs/SD/awashEthiopian1.png",
@@ -759,6 +869,17 @@
     "cuisine": "Mexican"
   },
   {
+    "imgSrc": "../food/assets/imgs/SD/mikesRedTacos.png",
+    "imgAlt": "Birria Tacos",
+    "titleLnk": "https://mikesredtacos.com/",
+    "titleTxt": "Mike's Red Tacos",
+    "rating": 3.6,
+    "location": "San Diego, CA",
+    "date-visited": "01-07-2024",
+    "price": "$",
+    "cuisine": "Mexican"
+  },
+  {
     "imgSrc": "../food/assets/imgs/pleasanton/thePress.png",
     "imgAlt": "sandwich",
     "titleLnk": "https://thepressartisancafe.com/",
@@ -788,6 +909,17 @@
     "rating": 4,
     "location": "Carmel by the Sea, CA",
     "date-visited": "12-17-2023",
+    "price": "$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/pleasanton/baci.png",
+    "imgAlt": "Chicken Alfredo",
+    "titleLnk": "http://bacibistroandbar.com/",
+    "titleTxt": "Baci Bistro and Bar",
+    "rating": 4,
+    "location": "San Diego, CA",
+    "date-visited": "11-24-2023",
     "price": "$$",
     "cuisine": "Italian"
   },
@@ -856,6 +988,17 @@
     "date-visited": "09-21-2023",
     "price": "$$",
     "cuisine": "Taiwanese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/millbrae/benTre.png",
+    "imgAlt": "BBQ Chicken",
+    "titleLnk": "http://bentrerestaurant.com/",
+    "titleTxt": "Ben Tre Restaurant",
+    "rating": 4.1,
+    "location": "Millbrae, CA",
+    "date-visited": "09-18-2023",
+    "price": "$$",
+    "cuisine": "Vietnamese"
   },
   {
     "imgSrc": "../food/assets/imgs/sunnyvale/10Butchers1.png",
