@@ -1,12 +1,45 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/milpitas/teaTop.png",
+    "imgAlt": "boba milk tea",
+    "titleLnk": "http://www.teatopusa.com/",
+    "titleTxt": "Tea Top Milpitas",
+    "rating": 4,
+    "location": "Milpitas , CA" ,
+    "date-visited": "07-27-2024",
+    "price": "$",
+    "cuisine": "Tea"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/milpitas/ox91.png",
+    "imgAlt": "spicy noodles",
+    "titleLnk": "https://maps.app.goo.gl/XZktKGzWTnDzHsYn7",
+    "titleTxt": "Ox 9 Lanzhou Hand Pulled Noodles",
+    "rating": 4.4,
+    "location": "Milpitas , CA" ,
+    "date-visited": "07-27-2024",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/san-ramon/andamanThai1.png",
+    "imgAlt": "spicy catfish",
+    "titleLnk": "https://andamanthai.toast.site/",
+    "titleTxt": "Andaman Thai",
+    "rating": 4.8,
+    "location": "San Ramon, CA" ,
+    "date-visited": "07-26-2024",
+    "price": "$$",
+    "cuisine": "Thai"
+  },
+  {
     "imgSrc": "../food/assets/imgs/walnutCreek/walnutCreekYachtClub1.png",
     "imgAlt": "fish and chips",
     "titleLnk": "http://www.wcyc.net/",
     "titleTxt": "Walnut Creek Yacht Club",
     "rating": 3.9,
     "location": "Walnut Creek, CA" ,
-    "date-visited": "07-26-2024",
+    "date-visited": "07-25-2024",
     "price": "$$",
     "cuisine": "Seafood"
   },
@@ -152,6 +185,15 @@
     "date-visited": "07-10-2024, 06-20-2024",
     "price": "$$",
     "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/oakland/farmhousethai1.png",
+    "imgAlt": "Vegetable Rolls",
+    "titleLnk": "https://farmhousethai.com/oakland",
+    "titleTxt": "Farmhouse Kitchen Thai",
+    "rating": 4.8,
+    "location": "Oakland, CA",
+    "date-visited":"07-07-2024"
   },
   {
     "imgSrc": "../food/assets/imgs/berkeley/gypsy.png",
