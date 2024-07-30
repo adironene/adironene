@@ -1,5 +1,16 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/oakland/cafeColucci2.jpg",
+    "imgAlt": "veggie Platter",
+    "titleLnk": "https://www.cafecolucci.com/",
+    "titleTxt": "Cafe Colucci",
+    "rating": 4.6,
+    "location": "Oakland, CA" ,
+    "date-visited": "07-28-2024",
+    "price": "$$",
+    "cuisine": "Ethiopian"
+  },
+  {
     "imgSrc": "../food/assets/imgs/milpitas/teaTop.png",
     "imgAlt": "boba milk tea",
     "titleLnk": "http://www.teatopusa.com/",
