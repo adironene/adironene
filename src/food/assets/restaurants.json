@@ -1,5 +1,27 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/pleasanton/icicles.png",
+    "imgAlt": "strawberry fantasy ice cream",
+    "titleLnk": "https://maps.app.goo.gl/Nh8HfpDahbJWW9xr7",
+    "titleTxt": "Icicles",
+    "rating": 4,
+    "location": "Pleasanton, CA" ,
+    "date-visited": "08-01-2024",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/sf/copra1.png",
+    "imgAlt": "chicken curry",
+    "titleLnk": "http://www.coprarestaurant.com/",
+    "titleTxt": "Copra",
+    "rating": 4.8,
+    "location": "San Francisco, CA" ,
+    "date-visited": "07-31-2024",
+    "price": "$$$",
+    "cuisine": "Indian"
+  },
+  {
     "imgSrc": "../food/assets/imgs/oakland/cafeColucci2.jpg",
     "imgAlt": "veggie Platter",
     "titleLnk": "https://www.cafecolucci.com/",
