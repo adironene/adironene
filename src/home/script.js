@@ -2,9 +2,10 @@ window.addEventListener("DOMContentLoaded", init);
 
 async function init() {
   animateText()
+  document.getElementById("menu-button").addEventListener("click", toggleMenu);
 }
 
-function animateText(callback) {
+function animateText() {
   const textElement = document.getElementById("animated-text");
   const textContent = textElement.textContent;
   const cursor = document.getElementById("cursor");
@@ -20,19 +21,19 @@ function animateText(callback) {
     charIndex++;
     if (charIndex === splitText.length) {
       clearInterval(timer);
-      if (callback) {
-        callback();
-      }
     }
   }, 100);
 }
 
-function hideElement(elementId) {
-  const element = document.getElementById(elementId);
-  element.style.visibility = "hidden";
+function toggleMenu() {
+  console.log("clicked")
+  const sideMenu = document.getElementById("sidebar");
+  if (sideMenu.style.width === "150px") {
+      sideMenu.style.width = "0";
+
+  } else {
+      sideMenu.style.width = "150px";
+  }
+  console.log("done")
 }
 
-function unhideElement(elementId) {
-  const element = document.getElementById(elementId);
-  element.style.visibility = "visible";
-}

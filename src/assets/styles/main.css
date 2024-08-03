@@ -28,7 +28,7 @@ h1 {
   font-weight: bolder;
 }
 
-a{
+a {
   text-decoration: none;
   color: #11aa9b;
 }
@@ -97,7 +97,7 @@ a{
 .column-container {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  padding: 30px 10%;
 }
 
 .column-container::before,
@@ -195,4 +195,37 @@ footer a {
 
 .home-img {
   height: 30vh;
+}
+
+.menu-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  padding: 10px 15px;
+  border: none;
+  cursor: url("../imgs/cursor.png"), auto;
+  z-index: 2;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(26, 26, 26, 0.881);
+  overflow-x: hidden;
+  transition: 2s;
+  padding-top: 60px;
+  z-index: 1;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  transition: 0.3s;
+  display: block;
 }
