@@ -1,4 +1,4 @@
-import * as util from "../../../assets/scripts/util.js";
+import * as util from '../../../util/assets/scripts/util.js';
 
 window.addEventListener("DOMContentLoaded", init);
 
