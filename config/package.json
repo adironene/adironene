@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint -c config/.eslintrc.js 'src/**/*.js'"
+    "lint": "eslint -c ./.eslintrc.js '../src/**/*.js'"
   },
   "keywords": [],
   "author": "",
