@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", init);
 
 async function init() {
-  animateText()
+  animateText();
   document.getElementById("menu-button").addEventListener("click", toggleMenu);
 }
 
@@ -26,14 +26,12 @@ function animateText() {
 }
 
 function toggleMenu() {
-  console.log("clicked")
+  console.log("clicked");
   const sideMenu = document.getElementById("sidebar");
   if (sideMenu.style.width === "150px") {
-      sideMenu.style.width = "0";
-
+    sideMenu.style.width = "0";
   } else {
-      sideMenu.style.width = "150px";
+    sideMenu.style.width = "150px";
   }
-  console.log("done")
+  console.log("done");
 }
-
