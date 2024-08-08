@@ -1,12 +1,12 @@
 module.exports = {
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: 'module',
+  },
   ignorePatterns: ['node_modules/**'],
   overrides: [
     {
       files: ['src/**/*.js'],
-      parserOptions: {
-        ecmaVersion: 2021,
-        sourceType: 'module',
-      },
       rules: {
         'no-unused-vars': 'warn',
         'no-console': 'off',
