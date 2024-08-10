@@ -1,14 +1,102 @@
 [
   {
-    "imgSrc": "../food/assets/imgs/rome/dinoto.png",
-    "imgAlt": "ice cream",
-    "titleLnk": "https://www.dinotobrand.com/",
-    "titleTxt": "Gelateria Pasticceria Caffetteria DI NOTO",
-    "rating": 4.6,
-    "location": "Rome, Italy" ,
-    "date-visited": "08-07-2024",
+    "imgSrc": "../food/assets/imgs/florence/laSchiacciataFirenze.png",
+    "imgAlt": "sandwich",
+    "titleLnk": "http://www.laschiacciatafirenze.it/",
+    "titleTxt": "La Schiacciata Firenze",
+    "rating": 4,
+    "location": "Florence, Italy" ,
+    "date-visited": "08-10-2024",
     "price": "$",
-    "cuisine": "Dessert"
+    "cuisine": "Sandwich"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/florence/ilPesceFresco2.png",
+    "imgAlt": "Oysters",
+    "titleLnk": "https://maps.app.goo.gl/TtZwpB77hDqkQ1eK8",
+    "titleTxt": "Il Pesce Fresco",
+    "rating": 4.4,
+    "location": "Florence, Italy" ,
+    "date-visited": "08-10-2024",
+    "price": "$",
+    "cuisine": "Seafood"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/pisa/olioEParmigiano1.png",
+    "imgAlt": "ragu pasta",
+    "titleLnk": "https://olioeparmigiano.wixsite.com/",
+    "titleTxt": "Olio e Parmigiano",
+    "rating": 4.3,
+    "location": "Pisa, Italy" ,
+    "date-visited": "08-10-2024",
+    "price": "$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/florence/paiolo1.png",
+    "imgAlt": "meat platter",
+    "titleLnk": "http://www.ristoranteilpaiolo.it/",
+    "titleTxt": "Ristorante Romantico il Paiolo",
+    "rating": 4.2,
+    "location": "Florence, Italy" ,
+    "date-visited": "08-09-2024",
+    "price": "$$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/florence/ilVivandiere.png",
+    "imgAlt": "meatballs",
+    "titleLnk": "http://www.ilvivandiere.com/",
+    "titleTxt": "Il Vivandiere - Cantina Vinicola",
+    "rating": 4.6,
+    "location": "Florence, Italy" ,
+    "date-visited": "08-09-2024",
+    "price": "$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/florence/floretSanNiccolo1.png",
+    "imgAlt": "eggs and beyond sausage",
+    "titleLnk": "https://www.floret-bar.com/",
+    "titleTxt": "floret San Niccolò",
+    "rating": 2.5,
+    "location": "Florence, Italy" ,
+    "date-visited": "08-09-2024",
+    "price": "$$",
+    "cuisine": "Vegetarian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/florence/boccadarno1.png",
+    "imgAlt": "seafood",
+    "titleLnk": "http://www.boccadarno-firenze.com/",
+    "titleTxt": "Boccadarno",
+    "rating": 3,
+    "location": "Florence, Italy" ,
+    "date-visited": "08-08-2024",
+    "price": "$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/rome/xiangYueGe1.png",
+    "imgAlt": "stir fried beef",
+    "titleLnk": "https://maps.app.goo.gl/JNeR774Aqw2JuGgM7",
+    "titleTxt": "XiangYueGe Chinese restaurant",
+    "rating": 3.7,
+    "location": "Rome, Italy" ,
+    "date-visited": "08-08-2024",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/rome/charlotte1.png",
+    "imgAlt": "omelette",
+    "titleLnk": "https://maps.app.goo.gl/HQQ5UsLDYuFykxX3A",
+    "titleTxt": "Charlotte",
+    "rating": 3.5,
+    "location": "Rome, Italy" ,
+    "date-visited": "08-08-2024",
+    "price": "$",
+    "cuisine": "Breakfast"
   },
   {
     "imgSrc": "../food/assets/imgs/rome/pesciolino2.png",
