@@ -1,5 +1,49 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/NY/thaiMarket.png",
+    "imgAlt": "Pad See Ew",
+    "titleLnk": "http://thaimarketny.net/",
+    "titleTxt": "Thai Market",
+    "rating": 3.9,
+    "location": "New York, NY" ,
+    "date-visited": "09-15-2024",
+    "price": "$$",
+    "cuisine": "Thai"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/levain.png",
+    "imgAlt": "Cookies",
+    "titleLnk": "https://levainbakery.com/pages/west-74th-street",
+    "titleTxt": "Levain Bakery",
+    "rating": 3.7,
+    "location": "New York, NY" ,
+    "date-visited": "09-15-2024",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/shinnEast1.png",
+    "imgAlt": "Omasake",
+    "titleLnk": "http://shinneast.com/",
+    "titleTxt": "SHINN EAST",
+    "rating": 4.8,
+    "location": "New York, NY" ,
+    "date-visited": "09-11-2024",
+    "price": "$$$$",
+    "cuisine": "Japanese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/nanXiang3.png",
+    "imgAlt": "soup dumplings",
+    "titleLnk": "https://nanxiangxiaolongbao.com/",
+    "titleTxt": "Nan Xiang Xiao Long Bao",
+    "rating": 3.5,
+    "location": "New York, NY" ,
+    "date-visited": "09-02-2024",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
     "imgSrc": "../food/assets/imgs/princeton/nomadPizza1.png",
     "imgAlt": "meat pizza",
     "titleLnk": "http://www.nomadpizzaco.com/princeton.html",
