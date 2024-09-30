@@ -1,5 +1,38 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/brooklyn/narutoRamen.png",
+    "imgAlt": "Ramen",
+    "titleLnk": "https://www.narutoramenbrooklyn.com/",
+    "titleTxt": "Naruto Ramen",
+    "rating": 3.3,
+    "location": "Brooklyn, NY" ,
+    "date-visited": "09-27-2024",
+    "price": "$$",
+    "cuisine": "Ramen"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/amorinoGelato1.png",
+    "imgAlt": "rose ice cream",
+    "titleLnk": "https://www.amorino.com/",
+    "titleTxt": "Amorino Gelato",
+    "rating": 4,
+    "location": "New York, NY" ,
+    "date-visited": "09-20-2024",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/pranakhon1.png",
+    "imgAlt": "grilled fish",
+    "titleLnk": "https://pranakhonnyc.com/",
+    "titleTxt": "Pranakhon",
+    "rating": 4.9,
+    "location": "New York, NY" ,
+    "date-visited": "09-20-2024",
+    "price": "$$$",
+    "cuisine": "Thai"
+  },
+  {
     "imgSrc": "../food/assets/imgs/NY/thaiMarket.png",
     "imgAlt": "Pad See Ew",
     "titleLnk": "http://thaimarketny.net/",
