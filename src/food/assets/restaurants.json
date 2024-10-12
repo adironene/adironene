@@ -1,5 +1,38 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/oakland/daughterThai1.png",
+    "imgAlt": "steak",
+    "titleLnk": "https://daughterthai.com/",
+    "titleTxt": "Daughter Thai Kitchen",
+    "rating": 5,
+    "location": "Oakland, CA" ,
+    "date-visited": "10-07-2024",
+    "price": "$$$",
+    "cuisine": "Thai"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/sf/scomas1.png",
+    "imgAlt": "crab",
+    "titleLnk": "https://scomas.com/",
+    "titleTxt": "Scoma's",
+    "rating": 4.5,
+    "location": "San Francisco, CA" ,
+    "date-visited": "10-05-2024",
+    "price": "$$$$",
+    "cuisine": "Seafood"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/jinRamenWestHarlem.png",
+    "imgAlt": "Ramen",
+    "titleLnk": "https://125.jinramen.com/",
+    "titleTxt": "Jin Ramen West Harlem",
+    "rating": 3.5,
+    "location": "New York, NY" ,
+    "date-visited": "10-03-2024",
+    "price": "$$",
+    "cuisine": "Ramen"
+  },
+  {
     "imgSrc": "../food/assets/imgs/brooklyn/narutoRamen.png",
     "imgAlt": "Ramen",
     "titleLnk": "https://www.narutoramenbrooklyn.com/",
