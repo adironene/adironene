@@ -1,5 +1,115 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/NY/kinRamen1.png",
+    "imgAlt": "Ramen",
+    "titleLnk": "https://kinramen.com/",
+    "titleTxt": "Kin ramen",
+    "rating": 3.6,
+    "location": "New York, NY" ,
+    "date-visited": "11-13-2024",
+    "price": "$$",
+    "cuisine": "Ramen"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/mountainHouse1.png",
+    "imgAlt": "spicy pork",
+    "titleLnk": "https://www.szechuanmountainhouse.com/",
+    "titleTxt": "Mountain House East Village",
+    "rating": 4.5,
+    "location": "New York, NY" ,
+    "date-visited": "11-11-2024",
+    "price": "$$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/BADMAASH1.png",
+    "imgAlt": "fried fish",
+    "titleLnk": "http://www.badmaashla.com/",
+    "titleTxt": "BADMAASH Fairfax",
+    "rating": 3.5,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "11-09-2024",
+    "price": "$$$",
+    "cuisine": "Indian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/angelsTacos.png",
+    "imgAlt": "Al Pastor tacos",
+    "titleLnk": "https://maps.app.goo.gl/zDcCrew8fQgS7Wbq8",
+    "titleTxt": "Angel's Tijuana Tacos",
+    "rating": 4.8,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "11-07-2024",
+    "price": "$",
+    "cuisine": "Mexican"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/sriSiam1.png",
+    "imgAlt": "spicy catfish",
+    "titleLnk": "http://www.srisiamcafe.com/",
+    "titleTxt": "Sri Siam Cafe",
+    "rating": 4.3,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "11-03-2024",
+    "price": "$$",
+    "cuisine": "Thai"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/Pasadena/chongQing1.png",
+    "imgAlt": "hot pot",
+    "titleLnk": "http://www.yaomeipasadena.com/",
+    "titleTxt": "Chong Qing YaoMei Hotpot",
+    "rating": 4.6,
+    "location": "Pasadena, CA" ,
+    "date-visited": "11-02-2024",
+    "price": "$$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/holbox1.png",
+    "imgAlt": "fish tacos",
+    "titleLnk": "http://www.holboxla.com/",
+    "titleTxt": "Holbox",
+    "rating": 4.1,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "11-02-2024",
+    "price": "$$",
+    "cuisine": "Mexican"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/shooLoongKan.png",
+    "imgAlt": "meat platter",
+    "titleLnk": "http://www.shooloongkan.us/",
+    "titleTxt": "Shoo Loong Kan Hotpot Manhattan",
+    "rating": 4.8,
+    "location": "New York, NY" ,
+    "date-visited": "10-30-2024",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/nomNam1.png",
+    "imgAlt": "pho",
+    "titleLnk": "http://www.nomnamnyc.com/",
+    "titleTxt": "Nom Nam",
+    "rating": 4.5,
+    "location": "New York, NY" ,
+    "date-visited": "10-26-2024",
+    "price": "$$",
+    "cuisine": "Vietnamese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/expat1.png",
+    "imgAlt": "wings",
+    "titleLnk": "https://www.theexpat.nyc/",
+    "titleTxt": "The Expat",
+    "rating": 4,
+    "location": "New York, NY" ,
+    "date-visited": "10-24-2024",
+    "price": "$$",
+    "cuisine": "Asian"
+  },
+  {
     "imgSrc": "../food/assets/imgs/oakland/daughterThai1.png",
     "imgAlt": "steak",
     "titleLnk": "https://daughterthai.com/",
