@@ -1,5 +1,115 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/NY/friendOfFarmer1.png",
+    "imgAlt": "Salmon Toast",
+    "titleLnk": "https://www.friendofafarmer.com/",
+    "titleTxt": "Friend of a Farmer",
+    "rating": 4.5,
+    "location": "New York, NY" ,
+    "date-visited": "11-29-2024",
+    "price": "$$",
+    "cuisine": "Brunch"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/xingFuTang.png",
+    "imgAlt": "Brown Sugar Milk Tea",
+    "titleLnk": "http://www.xingfutang.com/",
+    "titleTxt": "Xing Fu Tang",
+    "rating": 4.4,
+    "location": "New York, NY" ,
+    "date-visited": "11-28-2024",
+    "price": "$",
+    "cuisine": "Tea"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/haoNoodle1.png",
+    "imgAlt": "Green Pepper Beef",
+    "titleLnk": "https://haonoodle.com/",
+    "titleTxt": "Hao Noodle Chelsea",
+    "rating": 4.8,
+    "location": "New York, NY" ,
+    "date-visited": "11-28-2024",
+    "price": "$$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/bombayBistro1.png",
+    "imgAlt": "pani puri",
+    "titleLnk": "http://www.bombaybistros.com/",
+    "titleTxt": "Bombay Bistro",
+    "rating": 4.8,
+    "location": "New York, NY" ,
+    "date-visited": "11-27-2024",
+    "price": "$$$",
+    "cuisine": "Indian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/malaKitchen1.png",
+    "imgAlt": "century egg",
+    "titleLnk": "https://www.mala747.com/",
+    "titleTxt": "Mala Kitchen",
+    "rating": 4.6,
+    "location": "New York, NY" ,
+    "date-visited": "11-27-2024",
+    "price": "$$",
+    "cuisine": "Thai"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/viandCafe.png",
+    "imgAlt": "Toast",
+    "titleLnk": "http://viandnyc.com/",
+    "titleTxt": "Viand Cafe",
+    "rating": 3,
+    "location": "New York, NY" ,
+    "date-visited": "11-27-2024",
+    "price": "$$",
+    "cuisine": "Diner"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/salaThai1.png",
+    "imgAlt": "Tom Yum soup",
+    "titleLnk": "http://salathainyc.com/",
+    "titleTxt": "Sala Thai",
+    "rating": 4.6,
+    "location": "New York, NY" ,
+    "date-visited": "11-26-2024",
+    "price": "$$",
+    "cuisine": "Thai"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/bengalTiger2.png",
+    "imgAlt": "samosa",
+    "titleLnk": "http://www.bengaltigerindianfood.com/",
+    "titleTxt": "Bengal Tiger",
+    "rating": 4.7,
+    "location": "New York, NY" ,
+    "date-visited": "11-24-2024",
+    "price": "$$",
+    "cuisine": "Indian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/dunhuang2.png",
+    "imgAlt": "spicy green beans",
+    "titleLnk": "https://maps.app.goo.gl/8GfuHjixhttB66bVA",
+    "titleTxt": "Dun Huang",
+    "rating": 4.2,
+    "location": "New York, NY" ,
+    "date-visited": "11-23-2024",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/314bar.png",
+    "imgAlt": "pasta",
+    "titleLnk": "https://www.bar314nyc.com/",
+    "titleTxt": "314 Bar",
+    "rating": 4.3,
+    "location": "New York, NY" ,
+    "date-visited": "11-20-2024",
+    "price": "$$",
+    "cuisine": "Italian"
+  },
+  {
     "imgSrc": "../food/assets/imgs/NY/kinRamen1.png",
     "imgAlt": "Ramen",
     "titleLnk": "https://kinramen.com/",
