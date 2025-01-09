@@ -1,5 +1,38 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/pleasanton/TaqueriaDonChepe.png",
+    "imgAlt": "tacos",
+    "titleLnk": "https://maps.app.goo.gl/Ps5VYMSdF7tTB9UD9",
+    "titleTxt": "Taqueria Don Chepe",
+    "rating": 4.1,
+    "location": "Pleasanton, CA" ,
+    "date-visited": "12-20-2024",
+    "price": "$",
+    "cuisine": "Mexican"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/dublin/mayflower1.png",
+    "imgAlt": "Crab",
+    "titleLnk": "http://www.dublinmayflower.com/",
+    "titleTxt": "Mayflower",
+    "rating": 4.1,
+    "location": "Dublin, CA" ,
+    "date-visited": "12-15-2024",
+    "price": "$$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/sf/abrazo1.png",
+    "imgAlt": "steak",
+    "titleLnk": "https://www.abrazosf.com/",
+    "titleTxt": "Abrazo",
+    "rating": 5,
+    "location": "San Francisco, CA" ,
+    "date-visited": "12-13-2024",
+    "price": "$$$$",
+    "cuisine": "Spanish"
+  },
+  {
     "imgSrc": "../food/assets/imgs/NY/friendOfFarmer1.png",
     "imgAlt": "Salmon Toast",
     "titleLnk": "https://www.friendofafarmer.com/",
