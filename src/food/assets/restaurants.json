@@ -1,5 +1,126 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/LA/interstellar1.png",
+    "imgAlt": "french toast",
+    "titleLnk": "http://www.interstellarla.com/",
+    "titleTxt": "Interstellar",
+    "rating": 4.5,
+    "location": "Santa Monica, CA" ,
+    "date-visited": "1-6-2025",
+    "price": "$$",
+    "cuisine": "Brunch"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/pleasanton/ramen101.png",
+    "imgAlt": "Ramen",
+    "titleLnk": "https://maps.app.goo.gl/u2Dys6LZhnz61GFk6",
+    "titleTxt": "Ramen 101",
+    "rating": 3.8,
+    "location": "Pleasanton, CA" ,
+    "date-visited": "1-5-2025",
+    "price": "$$",
+    "cuisine": "Ramen"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/lake_tahoe/bertsCafe1.png",
+    "imgAlt": "crying tiger",
+    "titleLnk": "http://bertscafe.com/",
+    "titleTxt": "Bert's Cafe",
+    "rating": 4.5,
+    "location": "South Lake Tahoe, CA" ,
+    "date-visited": "1-4-2025",
+    "price": "$$",
+    "cuisine": "Brunch"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/lake_tahoe/myThai.png",
+    "imgAlt": "crying tiger",
+    "titleLnk": "https://www.mythaitahoe.com/",
+    "titleTxt": "My Thai Cuisine",
+    "rating": 4.2,
+    "location": "South Lake Tahoe, CA" ,
+    "date-visited": "1-3-2025",
+    "price": "$$",
+    "cuisine": "Thai"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/pleasanton/PhoSaigonCity1.png",
+    "imgAlt": "grilled plate",
+    "titleLnk": "https://maps.app.goo.gl/ZG2uNou3nvPggMcs8",
+    "titleTxt": "Pho Saigon City",
+    "rating": 4.3,
+    "location": "Pleasanton, CA" ,
+    "date-visited": "1-1-2025",
+    "price": "$$",
+    "cuisine": "Vietnamese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/sf/heist1.png",
+    "imgAlt": "Breakfast Platter",
+    "titleLnk": "http://heistsf.com/",
+    "titleTxt": "Heist",
+    "rating": 4.2,
+    "location": "San Francisco, CA" ,
+    "date-visited": "1-1-2025",
+    "price": "$$",
+    "cuisine": "Brunch"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/sf/aziza1.png",
+    "imgAlt": "prawns",
+    "titleLnk": "http://azizasf.com/",
+    "titleTxt": "Aziza",
+    "rating": 5,
+    "location": "San Francisco, CA" ,
+    "date-visited": "12-31-2024",
+    "price": "$$$$",
+    "cuisine": "Moroccan"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/dominican_republic/oceana.png",
+    "imgAlt": "Steak",
+    "titleLnk": "https://www.hyattinclusivecollection.com/en/resorts-hotels/secrets/dominican-republic/secrets-tides-punta-cana/dining-drinks/",
+    "titleTxt": "Oceana",
+    "rating": 4,
+    "location": "Punta Cana, Dominican Republic" ,
+    "date-visited": "12-27-2024",
+    "price": "$$",
+    "cuisine": "Seafood"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/dominican_republic/meraki1.png",
+    "imgAlt": "Salmon Nigiri",
+    "titleLnk": "https://www.hyattinclusivecollection.com/en/resorts-hotels/secrets/dominican-republic/secrets-tides-punta-cana/dining-drinks/",
+    "titleTxt": "Meraki",
+    "rating": 3.7,
+    "location": "Punta Cana, Dominican Republic" ,
+    "date-visited": "12-27-2024",
+    "price": "$$",
+    "cuisine": "Asian Fusion"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/dominican_republic/seaside_grill3.png",
+    "imgAlt": "grilled fish",
+    "titleLnk": "https://www.hyattinclusivecollection.com/en/resorts-hotels/secrets/dominican-republic/secrets-tides-punta-cana/dining-drinks/",
+    "titleTxt": "Seaside Grill",
+    "rating": 3.0,
+    "location": "Punta Cana, Dominican Republic" ,
+    "date-visited": "12-26-2024",
+    "price": "$$",
+    "cuisine": "Seafood"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/dominican_republic/elPatio1.png",
+    "imgAlt": "tacos",
+    "titleLnk": "https://www.hyattinclusivecollection.com/en/resorts-hotels/secrets/dominican-republic/secrets-tides-punta-cana/dining-drinks/",
+    "titleTxt": "El Patio",
+    "rating": 3.8,
+    "location": "Punta Cana, Dominican Republic" ,
+    "date-visited": "12-25-2024",
+    "price": "$$",
+    "cuisine": "Mexican"
+  },
+  {
     "imgSrc": "../food/assets/imgs/pleasanton/TaqueriaDonChepe.png",
     "imgAlt": "tacos",
     "titleLnk": "https://maps.app.goo.gl/Ps5VYMSdF7tTB9UD9",
