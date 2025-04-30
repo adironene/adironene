@@ -1,5 +1,93 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/NY/shikiOmakase1.png",
+    "imgAlt": "Oysters",
+    "titleLnk": "http://shikiomakasenyc.com/",
+    "titleTxt": "Shiki Omakase",
+    "rating": 4.8,
+    "location": "New York, NY" ,
+    "date-visited": "2-15-2025",
+    "price": "$$$",
+    "cuisine": "Omakase"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/sanCarlo1.png",
+    "imgAlt": "lamb chops",
+    "titleLnk": "http://www.sancarlonyc.com/",
+    "titleTxt": "San Carlo Osteria Piemonte",
+    "rating": 4.2,
+    "location": "New York, NY" ,
+    "date-visited": "2-14-2025",
+    "price": "$$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/pleasanton/lePalaisSucre1.png",
+    "imgAlt": "Crepe",
+    "titleLnk": "https://lepalaissucre.us/",
+    "titleTxt": "Le Palais Sucre",
+    "rating": 4.6,
+    "location": "Pleasanton, CA" ,
+    "date-visited": "1-18-2025",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/fremont/haidilao1.png",
+    "imgAlt": "Wagyu Meat",
+    "titleLnk": "https://maps.app.goo.gl/cpGELQDKLFbVppmT6",
+    "titleTxt": "HaiDiLao Fremont",
+    "rating": 4.5,
+    "location": "Fremont, CA" ,
+    "date-visited": "1-17-2025",
+    "price": "$$$",
+    "cuisine": "Hot Pot"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/oakland/a16_3.png",
+    "imgAlt": "Grilled Octupus",
+    "titleLnk": "http://www.a16pizza.com/",
+    "titleTxt": "A16",
+    "rating": 4.6,
+    "location": "Oakland, CA" ,
+    "date-visited": "1-16-2025",
+    "price": "$$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/sf/dumplingUnion1.png",
+    "imgAlt": "XLB",
+    "titleLnk": "https://dumplingunionsf.kwickmenu.com/index.php",
+    "titleTxt": "Dumpling Union",
+    "rating": 2.8,
+    "location": "San Francisco, CA" ,
+    "date-visited": "1-12-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/originkbbq1.png",
+    "imgAlt": "grilled kbbq",
+    "titleLnk": "https://www.originkbbq.com/",
+    "titleTxt": "ORIGIN Korean BBQ",
+    "rating": 4.5,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "1-8-2025",
+    "price": "$$$",
+    "cuisine": "Korean"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/majordomo1.png",
+    "imgAlt": "grilled wagyu",
+    "titleLnk": "http://www.majordomo.la/",
+    "titleTxt": "Majordomo",
+    "rating": 5,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "1-6-2025",
+    "price": "$$$$",
+    "cuisine": "Californian"
+  },
+  {
     "imgSrc": "../food/assets/imgs/LA/interstellar1.png",
     "imgAlt": "french toast",
     "titleLnk": "http://www.interstellarla.com/",
@@ -66,7 +154,7 @@
     "cuisine": "Brunch"
   },
   {
-    "imgSrc": "../food/assets/imgs/sf/aziza1.png",
+    "imgSrc": "../food/assets/imgs/sf/Aziza1.png",
     "imgAlt": "prawns",
     "titleLnk": "http://azizasf.com/",
     "titleTxt": "Aziza",
@@ -77,7 +165,7 @@
     "cuisine": "Moroccan"
   },
   {
-    "imgSrc": "../food/assets/imgs/dominican_republic/oceana.png",
+    "imgSrc": "../food/assets/imgs/dominican_republic/Oceana.png",
     "imgAlt": "Steak",
     "titleLnk": "https://www.hyattinclusivecollection.com/en/resorts-hotels/secrets/dominican-republic/secrets-tides-punta-cana/dining-drinks/",
     "titleTxt": "Oceana",
