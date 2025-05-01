@@ -1,5 +1,115 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/fountainValley/voxKitchen1.png",
+    "imgAlt": "pork fried rice",
+    "titleLnk": "https://www.eatvox.com/",
+    "titleTxt": "Vox Kitchen",
+    "rating": 4.5,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "3-21-2025",
+    "price": "$$",
+    "cuisine": "Asian Fusion"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/oddOneOut.png",
+    "imgAlt": "boba milk tea",
+    "titleLnk": "https://www.oootea.world/us",
+    "titleTxt": "Odd One Out Tea",
+    "rating": 4.1,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "3-21-2025",
+    "price": "$",
+    "cuisine": "Tea"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/gebangsikdang1.png",
+    "imgAlt": "Raw Marinated Crab",
+    "titleLnk": "https://gebangsikdang.modoo.at/",
+    "titleTxt": "Gebang Sikdang Raw Marinated Crab",
+    "rating": 4.3,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "3-21-2025",
+    "price": "$$$",
+    "cuisine": "Korean"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/ikiNori1.png",
+    "imgAlt": "handroll",
+    "titleLnk": "https://ikinori.com/",
+    "titleTxt": "Iki Nori Sushi Handroll Bar",
+    "rating": 4.5,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "3-20-2025",
+    "price": "$$$",
+    "cuisine": "Japanese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/quarters1.png",
+    "imgAlt": "kbbq meat",
+    "titleLnk": "https://www.quarterskbbq.com/",
+    "titleTxt": "Quarters Korean BBQ",
+    "rating": 4.7,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "3-18-2025",
+    "price": "$$$",
+    "cuisine": "Korean"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/bruinBowl.png",
+    "imgAlt": "Malatang",
+    "titleLnk": "https://maps.app.goo.gl/1AhHFLJcueqtNg4Z8",
+    "titleTxt": "Bruin Bowl",
+    "rating": 5,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "3-18-2025",
+    "price": "$",
+    "cuisine": "Malatang"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/YGFMalatang.png",
+    "imgAlt": "Malatang",
+    "titleLnk": "https://maps.app.goo.gl/ftoxENZBCghumzQP9",
+    "titleTxt": "YGF Malatang",
+    "rating": 4.2,
+    "location": "New York, NY" ,
+    "date-visited": "3-9-2025",
+    "price": "$",
+    "cuisine": "Malatang"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/leMonde1.png",
+    "imgAlt": "croque monsieur",
+    "titleLnk": "https://lemondenyc.com/",
+    "titleTxt": "Le Monde",
+    "rating": 3.7,
+    "location": "New York, NY" ,
+    "date-visited": "2-16-2025",
+    "price": "$$",
+    "cuisine": "French"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/malaHotpot.png",
+    "imgAlt": "hot pot bowl",
+    "titleLnk": "https://www.malahotpotnyc.com/",
+    "titleTxt": "Mala Hotpot",
+    "rating": 4.9,
+    "location": "New York, NY" ,
+    "date-visited": "2-16-2025",
+    "price": "$$$",
+    "cuisine": "Hot Pot"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/53_1.png",
+    "imgAlt": "Pork Ribs",
+    "titleLnk": "https://53-nyc.com/",
+    "titleTxt": "53",
+    "rating": 4.7,
+    "location": "New York, NY" ,
+    "date-visited": "2-15-2025",
+    "price": "$$$$",
+    "cuisine": "Asian Fusion"
+  },
+  {
     "imgSrc": "../food/assets/imgs/NY/shikiOmakase1.png",
     "imgAlt": "Oysters",
     "titleLnk": "http://shikiomakasenyc.com/",
