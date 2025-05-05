@@ -1,5 +1,60 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/NY/tascas1.png",
+    "imgAlt": "ribs",
+    "titleLnk": "http://www.tasca-nyc.com/",
+    "titleTxt": "Tasca",
+    "rating": 4.5,
+    "location": "New York, NY" ,
+    "date-visited": "3-27-2025",
+    "price": "$$$",
+    "cuisine": "Spanish"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/ERHotpot1.png",
+    "imgAlt": "meat platter",
+    "titleLnk": "http://er-hotpot.com/",
+    "titleTxt": "ER Hot Pot 36th St",
+    "rating": 4.8,
+    "location": "New York, NY" ,
+    "date-visited": "3-26-2025",
+    "price": "$$$",
+    "cuisine": "Hot Pot"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/gupShup1.png",
+    "imgAlt": "Mango curry fish",
+    "titleLnk": "https://www.gupshupnyc.com/",
+    "titleTxt": "Gup Shup",
+    "rating": 4.8,
+    "location": "New York, NY" ,
+    "date-visited": "3-25-2025",
+    "price": "$$$",
+    "cuisine": "Indian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/pizzeriaSei1.png",
+    "imgAlt": "mongolian lamb pizza",
+    "titleLnk": "http://www.pizzeriasei.com/",
+    "titleTxt": "Pizzeria Sei",
+    "rating": 4.7,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "3-22-2025",
+    "price": "$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/anaheim/joesIce.png",
+    "imgAlt": "italian ice",
+    "titleLnk": "http://www.joesice.com/",
+    "titleTxt": "Joe's Italian Ice",
+    "rating": 4,
+    "location": "Anaheim, CA" ,
+    "date-visited": "3-21-2025",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
     "imgSrc": "../food/assets/imgs/fountainValley/voxKitchen1.png",
     "imgAlt": "pork fried rice",
     "titleLnk": "https://www.eatvox.com/",
