@@ -1,5 +1,27 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/NY/thaiVilla1.png",
+    "imgAlt": "duck fried rice",
+    "titleLnk": "https://thaivillanyc.com/",
+    "titleTxt": "Thai Villa NYC",
+    "rating": 4.4,
+    "location": "New York, NY" ,
+    "date-visited": "3-28-2025",
+    "price": "$$$",
+    "cuisine": "Thai"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/kyuramen1.png",
+    "imgAlt": "ramen",
+    "titleLnk": "http://www.kyuramen.com/",
+    "titleTxt": "Kyuramen - Chinatown NYC",
+    "rating": 3.7,
+    "location": "New York, NY" ,
+    "date-visited": "3-28-2025",
+    "price": "$$",
+    "cuisine": "Ramen"
+  },
+  {
     "imgSrc": "../food/assets/imgs/NY/tascas1.png",
     "imgAlt": "ribs",
     "titleLnk": "http://www.tasca-nyc.com/",
@@ -31,6 +53,17 @@
     "date-visited": "3-25-2025",
     "price": "$$$",
     "cuisine": "Indian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/huntingtonBeach/tacosLosCholos.png",
+    "imgAlt": "tacos",
+    "titleLnk": "https://www.tacosloscholos.net/",
+    "titleTxt": "Tacos Los Cholos",
+    "rating": 4.1,
+    "location": "Huntington Beach, CA" ,
+    "date-visited": "3-23-2025",
+    "price": "$",
+    "cuisine": "Mexican"
   },
   {
     "imgSrc": "../food/assets/imgs/LA/pizzeriaSei1.png",
