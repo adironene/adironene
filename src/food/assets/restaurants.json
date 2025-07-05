@@ -1,5 +1,192 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/LA/electricKarma1.png",
+    "imgAlt": "lamb skewer",
+    "titleLnk": "https://www.electrickarma.com/",
+    "titleTxt": "Electric Karma",
+    "rating": 4.3,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "5-20-2025",
+    "price": "$$",
+    "cuisine": "Indian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/mcConnells.png",
+    "imgAlt": "ice cream cone",
+    "titleLnk": "http://www.mcconnells.com/shops/",
+    "titleTxt": "McConnell's Fine Ice Creams",
+    "rating": 4.5,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "5-18-2025",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/villasTacos.png",
+    "imgAlt": "tacos",
+    "titleLnk": "http://villastacos.com/",
+    "titleTxt": "Villa's Tacos - Grand Central Market",
+    "rating": 4.3,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "5-18-2025",
+    "price": "$",
+    "cuisine": "Mexican"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/dublin/happyLamb1.png",
+    "imgAlt": "meat",
+    "titleLnk": "https://happylambhotpot.com/",
+    "titleTxt": "Happy Lamb Hot Pot",
+    "rating": 4.1,
+    "location": "Dublin, CA" ,
+    "date-visited": "5-18-2025",
+    "price": "$$",
+    "cuisine": "Hot Pot"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/fremont/newYongKang1.png",
+    "imgAlt": "clay pot pork",
+    "titleLnk": "http://www.newyorkkang.com/",
+    "titleTxt": "New Yong Kang Seafood",
+    "rating": 4.4,
+    "location": "Fremont, CA" ,
+    "date-visited": "5-16-2025",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/atlasKitchen1.png",
+    "imgAlt": "chili chicken",
+    "titleLnk": "https://www.atlaskitchennyc.com/",
+    "titleTxt": "Atlas Kitchen",
+    "rating": 4.4,
+    "location": "New York, NY" ,
+    "date-visited": "5-01-2025",
+    "price": "$$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/SD/bbqChicken1.png",
+    "imgAlt": "kimchi fried rice",
+    "titleLnk": "https://bbqchicken.com/",
+    "titleTxt": "BBQ Chicken Convoy",
+    "rating": 4.3,
+    "location": "San Diego, CA" ,
+    "date-visited": "4-27-2025",
+    "price": "$",
+    "cuisine": "Korean"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/LA/carlitosGardel1.png",
+    "imgAlt": "steak",
+    "titleLnk": "http://www.carlitosgardel.com/",
+    "titleTxt": "Carlitos Gardel Argentine Steakhouse",
+    "rating": 4.0,
+    "location": "Los Angeles, CA" ,
+    "date-visited": "4-26-2025",
+    "price": "$$$$",
+    "cuisine": "Argentinian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/gentile.png",
+    "imgAlt": "ice cream",
+    "titleLnk": "http://www.gelateriagentile.com/en/",
+    "titleTxt": "Gelateria Gentile",
+    "rating": 4.4,
+    "location": "New York, NY" ,
+    "date-visited": "4-21-2025",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/fishCheeks1.png",
+    "imgAlt": "steamed fish",
+    "titleLnk": "https://www.fishcheeksnyc.com/",
+    "titleTxt": "Fish Cheeks",
+    "rating": 4.9,
+    "location": "New York, NY" ,
+    "date-visited": "4-21-2025",
+    "price": "$$$",
+    "cuisine": "Thai"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/simplyNoodles1.png",
+    "imgAlt": "wings",
+    "titleLnk": "https://www.simplynoodlesnyc.com/",
+    "titleTxt": "Simply Noodles",
+    "rating": 3.9,
+    "location": "New York, NY" ,
+    "date-visited": "4-21-2025",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/omakase33/omakase33_1.png",
+    "imgAlt": "Salmon handroll",
+    "titleLnk": "http://www.omakase33.com/",
+    "titleTxt": "Omakase 33",
+    "rating": 5.0,
+    "location": "New York, NY" ,
+    "date-visited": "4-21-2025",
+    "price": "$$$$",
+    "cuisine": "Omakase"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/linAndDaughter.png",
+    "imgAlt": "chinese noodle",
+    "titleLnk": "https://www.linanddaughters.com/the-menu",
+    "titleTxt": "Lin and Daughter",
+    "rating": 3.2,
+    "location": "New York, NY" ,
+    "date-visited": "4-20-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/nikkoHibachi.png",
+    "imgAlt": "salmon roll",
+    "titleLnk": "https://nikko-hibachi-asian-fusion.foodjoyy.com/",
+    "titleTxt": "Nikko Hibachi Asian Fusion",
+    "rating": 4.1,
+    "location": "New York, NY" ,
+    "date-visited": "4-9-2025",
+    "price": "$$",
+    "cuisine": "Japanese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/SALSWEE.png",
+    "imgAlt": "fruit cake",
+    "titleLnk": "https://www.salswee.com/",
+    "titleTxt": "SALSWEE",
+    "rating": 4.0,
+    "location": "New York, NY" ,
+    "date-visited": "4-7-2025",
+    "price": "$$",
+    "cuisine": "Dessert"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/thaiVilla1.png",
+    "imgAlt": "duck fried rice",
+    "titleLnk": "https://thaivillanyc.com/",
+    "titleTxt": "Thai Villa NYC",
+    "rating": 4.4,
+    "location": "New York, NY" ,
+    "date-visited": "3-28-2025",
+    "price": "$$$",
+    "cuisine": "Thai"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/kyuramen1.png",
+    "imgAlt": "ramen",
+    "titleLnk": "http://www.kyuramen.com/",
+    "titleTxt": "Kyuramen - Chinatown NYC",
+    "rating": 3.7,
+    "location": "New York, NY" ,
+    "date-visited": "3-28-2025",
+    "price": "$$",
+    "cuisine": "Ramen"
+  },
+  {
     "imgSrc": "../food/assets/imgs/NY/tascas1.png",
     "imgAlt": "ribs",
     "titleLnk": "http://www.tasca-nyc.com/",
@@ -31,6 +218,17 @@
     "date-visited": "3-25-2025",
     "price": "$$$",
     "cuisine": "Indian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/huntingtonBeach/tacosLosCholos.png",
+    "imgAlt": "tacos",
+    "titleLnk": "https://www.tacosloscholos.net/",
+    "titleTxt": "Tacos Los Cholos",
+    "rating": 4.1,
+    "location": "Huntington Beach, CA" ,
+    "date-visited": "3-23-2025",
+    "price": "$",
+    "cuisine": "Mexican"
   },
   {
     "imgSrc": "../food/assets/imgs/LA/pizzeriaSei1.png",
@@ -165,7 +363,7 @@
     "cuisine": "Asian Fusion"
   },
   {
-    "imgSrc": "../food/assets/imgs/NY/shikiOmakase1.png",
+    "imgSrc": "../food/assets/imgs/NY/shiki_omakase/shikiOmakase1.png",
     "imgAlt": "Oysters",
     "titleLnk": "http://shikiomakasenyc.com/",
     "titleTxt": "Shiki Omakase",
