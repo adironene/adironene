@@ -8,12 +8,39 @@ body {
   cursor: url("../../../assets/imgs/cursor.png"), auto;
 }
 
-header {
-  font-family: andale mono, monospace;
+ .header-container {
+  position: relative;
   padding: 20px 5vw;
-  font-size: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   box-shadow: 0px 5px 20px rgb(66, 66, 66);
+  background-color: white;
 }
+
+.food-header {
+  font-family: andale mono, monospace;
+  font-size: 4vh;
+  margin: 0;
+}
+
+.back-home-button {
+  text-decoration: none;
+  color: black;
+  background-color: #eeeeee;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.back-home-button:hover {
+  background-color: #5a5a5a; /* Tailwind purple-400 */
+  color: white;
+  box-shadow: 0 0 10px #5a5a5a;
+}
+
 
 .nav-container {
     padding: 20px 5vw;
