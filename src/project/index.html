@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects | Phoebe's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('/src/project/assets/background.gif');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    .neon-purple:hover {
+      box-shadow: 0 0 10px #9c9c9c, 0 0 20px #9c9c9c, 0 0 30px #9c9c9c;
+      background-color: rgba(116, 114, 118, 0.2);
+    }
+  </style>
+</head>
+<body class="text-white font-sans">
+
+  <nav class="fixed top-6 left-6 z-50">
+    <a href="/src/home/" class="neon-purple text-white text-sm px-4 py-2 rounded-lg shadow-md transition duration-300">
+      ← Back to Home
+    </a>
+  </nav>
+
+  <!-- Title -->
+  <div class="pt-10 pb-5">
+    <h1 class="text-4xl font-bold mb-10 text-center text-white drop-shadow-md">My Projects</h1>
+  </div>
+
+  <!-- Project Grid -->
+  <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto px-6 pb-16">
+    <a href="https://github.com/adironene/Object-Detection-Valorant" class="group relative block overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+      <img src="/src/project/assets/cv_valorant.png" alt="Valorant CV" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" />
+      <div class="absolute bottom-0 w-full bg-black/80 text-white p-4">
+        <h2 class="text-lg font-semibold">Object Detection in Valorant</h2>
+        <p class="text-sm text-gray-300">Leveraged a custom YOLO object detection model to identify Valorant enemies during gameplay. </p>
+      </div>
+    </a>
+
+    <a href="https://github.com/adironene/CS6111-Project3" class="group relative block overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+      <img src="/src/project/assets/NYC.webp" alt="NYC" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" />
+      <div class="absolute bottom-0 w-full bg-black/60 text-white p-4">
+        <h2 class="text-lg font-semibold">Association Rules on NYC Data</h2>
+        <p class="text-sm text-gray-300">The extraction of association rules from a real-world dataset using the Apriori algorithm.</p>
+      </div>
+    </a>
+
+    <a href="https://github.com/MatthewLabasan/CS6111-Project2" class="group relative block overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+      <img src="/src/project/assets/llm_ie.png" alt="LLM IE" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" />
+      <div class="absolute bottom-0 w-full bg-black/60 text-white p-4">
+        <h2 class="text-lg font-semibold">LLM-Based Web Information Extraction</h2>
+        <p class="text-sm text-gray-300">Extracted relational data using an Iterative Set Expansion algorithm with SpanBERT and Gemini.</p>
+      </div>
+    </a>
+    
+    <a href="https://github.com/MatthewLabasan/CS6111-Project1" class="group relative block overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+      <img src="/src/project/assets/query_expansion.png" alt="Query Expansion" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" />
+      <div class="absolute bottom-0 w-full bg-black/60 text-white p-4">
+        <h2 class="text-lg font-semibold">Interactive Query Expansion</h2>
+        <p class="text-sm text-gray-300">Dynamically improves search precision using tf-idf, bigram placement, and user feedback.</p>
+      </div>
+    </a>
+  </div>
+</body>
+</html>
