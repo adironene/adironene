@@ -1,4 +1,59 @@
 [
+    {
+    "imgSrc": "../food/assets/imgs/sunnyvale/ulavacharU1.png",
+    "imgAlt": "naan",
+    "titleLnk": "http://www.ulavacharuusa.com/",
+    "titleTxt": "UlavacharU Indian Restaurant",
+    "rating": 4.4,
+    "location": "Sunnyvale, CA" ,
+    "date-visited": "7-25-2025",
+    "price": "$$",
+    "cuisine": "Indian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/dalyCity/izumi1.png",
+    "imgAlt": "sushi and udon",
+    "titleLnk": "http://www.izumikaitensushi.com/",
+    "titleTxt": "Izumi Revolving Sushi",
+    "rating": 3.7,
+    "location": "Daly City, CA" ,
+    "date-visited": "7-22-2025",
+    "price": "$$",
+    "cuisine": "Japanese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/dublin/youngDong2.png",
+    "imgAlt": "Tofu Soup",
+    "titleLnk": "https://maps.app.goo.gl/bYqYU9uutmEnuhZu8",
+    "titleTxt": "Young Dong Tofu House",
+    "rating": 4.5,
+    "location": "Dublin, CA" ,
+    "date-visited": "7-20-2025",
+    "price": "$$",
+    "cuisine": "Korean"
+  },
+   {
+    "imgSrc": "../food/assets/imgs/berkeley/chichaSanChen.jpg",
+    "imgAlt": "boba milk tea",
+    "titleLnk": "https://www.chichasanchennorcal.com/",
+    "titleTxt": "Chicha San Chen 吃茶三千",
+    "rating": 4.4,
+    "location": "Berkeley, CA" ,
+    "date-visited": "7-19-2025",
+    "price": "$",
+    "cuisine": "Tea"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/pleasanton/nikuyaStone2.png",
+    "imgAlt": "clam linguine",
+    "titleLnk": "https://nikuyastonegrillbar.com/",
+    "titleTxt": "Nikuya Stone Grill and Bar",
+    "rating": 3.8,
+    "location": "Pleasanton, CA" ,
+    "date-visited": "7-16-2025",
+    "price": "$$$",
+    "cuisine": "Asian Fusion"
+  },
   {
     "imgSrc": "../food/assets/imgs/monterey/domenicos1.png",
     "imgAlt": "clam linguine",
@@ -1764,7 +1819,7 @@
     "titleTxt": "Gypsy's Trattoria",
     "rating": 4.2,
     "location": "Berkeley, CA",
-    "date-visited": "06-25-2024",
+    "date-visited": "06-25-2024, 07-19-2025",
     "price": "$",
     "cuisine": "Italian"
   },
