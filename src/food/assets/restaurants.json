@@ -1,5 +1,60 @@
 [
+      {
+    "imgSrc": "../food/assets/imgs/palo_alto/terunPizza1.png",
+    "imgAlt": "seafood linguine",
+    "titleLnk": "https://www.terunpizza.com/",
+    "titleTxt": "Terun Pizza",
+    "rating": 3.7,
+    "location": "Palo Alto, CA" ,
+    "date-visited": "8-05-2025",
+    "price": "$$",
+    "cuisine": "Italian"
+  },
     {
+    "imgSrc": "../food/assets/imgs/palo_alto/aryaSteakhouse1.png",
+    "imgAlt": "kabob",
+    "titleLnk": "http://www.aryasteakhouse.com/",
+    "titleTxt": "Arya Steakhouse",
+    "rating": 4.2,
+    "location": "Palo Alto, CA" ,
+    "date-visited": "8-04-2025",
+    "price": "$$$",
+    "cuisine": "Persian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/pleasanton/cocinaMexico.png",
+    "imgAlt": "tacos",
+    "titleLnk": "http://www.mycocinamexico.com/",
+    "titleTxt": "Cocina Mexico",
+    "rating": 4.1,
+    "location": "Pleasanton, CA" ,
+    "date-visited": "8-02-2025",
+    "price": "$",
+    "cuisine": "Mexican"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/palo_alto/taste1.png",
+    "imgAlt": "chili chicken",
+    "titleLnk": "https://www.taste-paloalto.com/",
+    "titleTxt": "Taste",
+    "rating": 4.2,
+    "location": "Palo Alto, CA" ,
+    "date-visited": "8-01-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/sf/canelaBistro3.png",
+    "imgAlt": "garlic shrimp",
+    "titleLnk": "https://canelasf.com/",
+    "titleTxt": "Canela Bistro Bar",
+    "rating": 4.4,
+    "location": "San Francisco, CA" ,
+    "date-visited": "7-27-2025",
+    "price": "$$$",
+    "cuisine": "Spanish"
+  },
+  {
     "imgSrc": "../food/assets/imgs/sunnyvale/ulavacharU1.png",
     "imgAlt": "naan",
     "titleLnk": "http://www.ulavacharuusa.com/",
@@ -1128,7 +1183,7 @@
     "titleTxt": "Daughter Thai Kitchen",
     "rating": 5,
     "location": "Oakland, CA" ,
-    "date-visited": "10-07-2024",
+    "date-visited": "10-07-2024, 08-02-2024",
     "price": "$$$",
     "cuisine": "Thai"
   },
