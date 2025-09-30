@@ -1,5 +1,38 @@
 [
-      {
+  {
+    "imgSrc": "../food/assets/imgs/fremont/MDumpling1.png",
+    "imgAlt": "xiaolongbao",
+    "titleLnk": "https://maps.app.goo.gl/h2KMsxcT7py2JxzT7",
+    "titleTxt": "M Dumpling",
+    "rating": 4.3,
+    "location": "San Francisco, CA" ,
+    "date-visited": "8-06-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/sf/coqueta1.png",
+    "imgAlt": "tapas",
+    "titleLnk": "https://www.coquetasf.com/",
+    "titleTxt": "Coqueta",
+    "rating": 5.0,
+    "location": "San Francisco, CA" ,
+    "date-visited": "8-06-2025",
+    "price": "$$$$",
+    "cuisine": "Spanish"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/sf/yankSing2.png",
+    "imgAlt": "dim sum",
+    "titleLnk": "http://www.yanksing.com/",
+    "titleTxt": "Yank Sing",
+    "rating": 4.1,
+    "location": "San Francisco, CA" ,
+    "date-visited": "8-06-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
     "imgSrc": "../food/assets/imgs/palo_alto/terunPizza1.png",
     "imgAlt": "seafood linguine",
     "titleLnk": "https://www.terunpizza.com/",
