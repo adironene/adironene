@@ -1,5 +1,49 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/NY/sweetea1.png",
+    "imgAlt": "matcha boba",
+    "titleLnk": "https://maps.app.goo.gl/m8BFnrnEewhMvav26",
+    "titleTxt": "Sweetea",
+    "rating": 3.8,
+    "location": "New York, NY" ,
+    "date-visited": "9-02-2025",
+    "price": "$",
+    "cuisine": "Tea"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/CHILI4.png",
+    "imgAlt": "spicy rice noodles",
+    "titleLnk": "https://www.chilinyc.com/",
+    "titleTxt": "CHILI",
+    "rating": 4.6,
+    "location": "New York, NY" ,
+    "date-visited": "9-02-2025",
+    "price": "$$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/taqueria86.png",
+    "imgAlt": "tacos",
+    "titleLnk": "http://www.taqueria86.com/",
+    "titleTxt": "Taqueria 86",
+    "rating": 4.2,
+    "location": "New York, NY" ,
+    "date-visited": "9-02-2025",
+    "price": "$",
+    "cuisine": "Mexican"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/santaFe2.png",
+    "imgAlt": "shrimp rolls",
+    "titleLnk": "http://www.santafe71.com/",
+    "titleTxt": "Santa Fe",
+    "rating": 4.0,
+    "location": "New York, NY" ,
+    "date-visited": "8-31-2025",
+    "price": "$$",
+    "cuisine": "Mexican"
+  },
+  {
     "imgSrc": "../food/assets/imgs/pleasanton/bravaGardenEatery3.png",
     "imgAlt": "potstickers",
     "titleLnk": "http://bravagardeneatery.com/",
