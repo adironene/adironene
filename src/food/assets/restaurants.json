@@ -1,4 +1,48 @@
-[
+[ 
+  {
+    "imgSrc": "../food/assets/imgs/NY/naiBrotherSauerkraut.png",
+    "imgAlt": "suaerkraut fish",
+    "titleLnk": "https://www.naibrothersauerkrautfish.com/",
+    "titleTxt": "Nai Brother Sauerkraut Fish",
+    "rating": 4.0,
+    "location": "New York, NY" ,
+    "date-visited": "9-06-2025",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/brooklyn/mariscosElSubmarino1.png",
+    "imgAlt": "ceviche",
+    "titleLnk": "https://mariscoselsubmarinonyc.com/",
+    "titleTxt": "Mariscos El Submarino",
+    "rating": 4.1,
+    "location": "Brooklyn, NY" ,
+    "date-visited": "9-05-2025",
+    "price": "$$",
+    "cuisine": "Mexican"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/clintonStBakingCompany2.png",
+    "imgAlt": "french toast",
+    "titleLnk": "http://www.clintonstreetbaking.com/",
+    "titleTxt": "Clinton St Baking Company",
+    "rating": 4.3,
+    "location": "New York, NY" ,
+    "date-visited": "9-05-2025",
+    "price": "$$",
+    "cuisine": "Brunch"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/upsidePizza1.png",
+    "imgAlt": "pizza",
+    "titleLnk": "http://www.upsidepizza.com/",
+    "titleTxt": "Upside Pizza",
+    "rating": 4.7,
+    "location": "New York, NY" ,
+    "date-visited": "9-04-2025",
+    "price": "$",
+    "cuisine": "Pizza"
+  },
   {
     "imgSrc": "../food/assets/imgs/NY/sweetea1.png",
     "imgAlt": "matcha boba",
