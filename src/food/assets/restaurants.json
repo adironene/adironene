@@ -1,5 +1,60 @@
 [ 
   {
+    "imgSrc": "../food/assets/imgs/NY/dunHuang1.png",
+    "imgAlt": "spicy noodles",
+    "titleLnk": "https://maps.app.goo.gl/2pcEJ8xj2j1YkQFT8",
+    "titleTxt": "Dun Huang",
+    "rating": 3.9,
+    "location": "New York, NY" ,
+    "date-visited": "10-4-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/nanXiangExpress.png",
+    "imgAlt": "beef noodles",
+    "titleLnk": "https://nanxiangexpress.com/",
+    "titleTxt": "Nan Xiang Express - UWS",
+    "rating": 4.1,
+    "location": "New York, NY" ,
+    "date-visited": "9-30-2025",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/1915LanzhouHandpulledNoodles.png",
+    "imgAlt": "spicy noodles",
+    "titleLnk": "https://www.1915lanzhounoodles.com/",
+    "titleTxt": "1915 Lanzhou Hand Pulled Noodles",
+    "rating": 4.6,
+    "location": "New York, NY" ,
+    "date-visited": "9-28-2025",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/juiceGeneration.png",
+    "imgAlt": "juice",
+    "titleLnk": "https://www.juicegeneration.com/",
+    "titleTxt": "Juice Generation",
+    "rating": 4.2,
+    "location": "New York, NY" ,
+    "date-visited": "9-26-2025",
+    "price": "$",
+    "cuisine": "Juice"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/EZPaellaTapas1.png",
+    "imgAlt": "paella",
+    "titleLnk": "http://www.ezpaella.com/",
+    "titleTxt": "EZ Paella & Tapas",
+    "rating": 4.6,
+    "location": "New York, NY" ,
+    "date-visited": "9-24-2025",
+    "price": "$$$",
+    "cuisine": "Spanish"
+  },
+  {
     "imgSrc": "../food/assets/imgs/NY/frena2.png",
     "imgAlt": "branzino",
     "titleLnk": "https://www.frena.nyc/",
@@ -1282,7 +1337,7 @@
     "titleTxt": "Sala Thai",
     "rating": 4.6,
     "location": "New York, NY" ,
-    "date-visited": "11-26-2024",
+    "date-visited": "11-26-2024, 10-1-2025",
     "price": "$$",
     "cuisine": "Thai"
   },
