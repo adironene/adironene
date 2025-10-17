@@ -1,5 +1,38 @@
 [ 
   {
+    "imgSrc": "../food/assets/imgs/NY/flyingCock1.png",
+    "imgAlt": "Waffle",
+    "titleLnk": "https://www.theflyingcocknyc.com/",
+    "titleTxt": "The Flying Cock",
+    "rating": 4.1,
+    "location": "New York, NY" ,
+    "date-visited": "10-12-2025",
+    "price": "$$",
+    "cuisine": "Brunch"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/nittis1.png",
+    "imgAlt": "pizza",
+    "titleLnk": "https://nittisnyc.com/",
+    "titleTxt": "Nittis Italian",
+    "rating": 4.4,
+    "location": "New York, NY" ,
+    "date-visited": "10-11-2025",
+    "price": "$$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/hiSunny.png",
+    "imgAlt": "sour noodles",
+    "titleLnk": "https://www.hisunnyrestaurantny.com/",
+    "titleTxt": "Hi Sunny Restaurant",
+    "rating": 3.0,
+    "location": "New York, NY" ,
+    "date-visited": "10-5-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
     "imgSrc": "../food/assets/imgs/NY/dunHuang1.png",
     "imgAlt": "spicy noodles",
     "titleLnk": "https://maps.app.goo.gl/2pcEJ8xj2j1YkQFT8",
@@ -1390,9 +1423,9 @@
     "imgAlt": "spicy pork",
     "titleLnk": "https://www.szechuanmountainhouse.com/",
     "titleTxt": "Mountain House East Village",
-    "rating": 4.5,
+    "rating": 4.7,
     "location": "New York, NY" ,
-    "date-visited": "11-11-2024",
+    "date-visited": "11-11-2024, 10-10-2025",
     "price": "$$$",
     "cuisine": "Chinese"
   },
