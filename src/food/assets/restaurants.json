@@ -1,4 +1,180 @@
-[
+[ 
+  {
+    "imgSrc": "../food/assets/imgs/NY/dunHuang1.png",
+    "imgAlt": "spicy noodles",
+    "titleLnk": "https://maps.app.goo.gl/2pcEJ8xj2j1YkQFT8",
+    "titleTxt": "Dun Huang",
+    "rating": 3.9,
+    "location": "New York, NY" ,
+    "date-visited": "10-4-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/nanXiangExpress.png",
+    "imgAlt": "beef noodles",
+    "titleLnk": "https://nanxiangexpress.com/",
+    "titleTxt": "Nan Xiang Express - UWS",
+    "rating": 4.1,
+    "location": "New York, NY" ,
+    "date-visited": "9-30-2025",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/1915LanzhouHandpulledNoodles.png",
+    "imgAlt": "spicy noodles",
+    "titleLnk": "https://www.1915lanzhounoodles.com/",
+    "titleTxt": "1915 Lanzhou Hand Pulled Noodles",
+    "rating": 4.6,
+    "location": "New York, NY" ,
+    "date-visited": "9-28-2025",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/juiceGeneration.png",
+    "imgAlt": "juice",
+    "titleLnk": "https://www.juicegeneration.com/",
+    "titleTxt": "Juice Generation",
+    "rating": 4.2,
+    "location": "New York, NY" ,
+    "date-visited": "9-26-2025",
+    "price": "$",
+    "cuisine": "Juice"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/EZPaellaTapas1.png",
+    "imgAlt": "paella",
+    "titleLnk": "http://www.ezpaella.com/",
+    "titleTxt": "EZ Paella & Tapas",
+    "rating": 4.6,
+    "location": "New York, NY" ,
+    "date-visited": "9-24-2025",
+    "price": "$$$",
+    "cuisine": "Spanish"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/frena2.png",
+    "imgAlt": "branzino",
+    "titleLnk": "https://www.frena.nyc/",
+    "titleTxt": "Frena",
+    "rating": 4.4,
+    "location": "New York, NY" ,
+    "date-visited": "9-22-2025",
+    "price": "$$$",
+    "cuisine": "Middle Eastern"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/justPhoYou.png",
+    "imgAlt": "pho",
+    "titleLnk": "http://justphoyounyc.com/",
+    "titleTxt": "Just Pho You",
+    "rating": 3.8,
+    "location": "New York, NY" ,
+    "date-visited": "9-22-2025",
+    "price": "$$",
+    "cuisine": "Vietnamese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/olliesSichuan1.png",
+    "imgAlt": "chicken stir fry",
+    "titleLnk": "https://ollieseats.com/ollies-sichuan-restaurant-nyc",
+    "titleTxt": "Ollie's Sichuan Chinese Restaurant",
+    "rating": 3.9,
+    "location": "New York, NY" ,
+    "date-visited": "9-21-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/spotDessertBar1.png",
+    "imgAlt": "plant cheesecake",
+    "titleLnk": "http://www.spotdessertbar.com/",
+    "titleTxt": "Spot Dessert Bar",
+    "rating": 4.4,
+    "location": "New York, NY" ,
+    "date-visited": "9-19-2025",
+    "price": "$$",
+    "cuisine": "Dessert"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/edison/bombayBlue2.png",
+    "imgAlt": "puri",
+    "titleLnk": "http://www.bombayblue.net/",
+    "titleTxt": "Bombay Blue",
+    "rating": 4.3,
+    "location": "Edison, NJ" ,
+    "date-visited": "9-13-2025",
+    "price": "$$",
+    "cuisine": "Indian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/flushing/mollyTea.png",
+    "imgAlt": "jasmine milk tea",
+    "titleLnk": "http://mollyteany.com/",
+    "titleTxt": "Molly Tea",
+    "rating": 4.8,
+    "location": "New York, NY" ,
+    "date-visited": "9-09-2025",
+    "price": "$",
+    "cuisine": "Tea"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/communityFoodJuice.png",
+    "imgAlt": "crispy salmon",
+    "titleLnk": "https://www.communityfoodandjuice.com/",
+    "titleTxt": "Community Food & Juice",
+    "rating": 4.3,
+    "location": "New York, NY" ,
+    "date-visited": "9-09-2025",
+    "price": "$$",
+    "cuisine": "Italian"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/naiBrotherSauerkraut.png",
+    "imgAlt": "suaerkraut fish",
+    "titleLnk": "https://www.naibrothersauerkrautfish.com/",
+    "titleTxt": "Nai Brother Sauerkraut Fish",
+    "rating": 4.0,
+    "location": "New York, NY" ,
+    "date-visited": "9-06-2025",
+    "price": "$",
+    "cuisine": "Chinese"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/brooklyn/mariscosElSubmarino1.png",
+    "imgAlt": "ceviche",
+    "titleLnk": "https://mariscoselsubmarinonyc.com/",
+    "titleTxt": "Mariscos El Submarino",
+    "rating": 4.1,
+    "location": "Brooklyn, NY" ,
+    "date-visited": "9-05-2025",
+    "price": "$$",
+    "cuisine": "Mexican"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/clintonStBakingCompany2.png",
+    "imgAlt": "french toast",
+    "titleLnk": "http://www.clintonstreetbaking.com/",
+    "titleTxt": "Clinton St Baking Company",
+    "rating": 4.3,
+    "location": "New York, NY" ,
+    "date-visited": "9-05-2025",
+    "price": "$$",
+    "cuisine": "Brunch"
+  },
+  {
+    "imgSrc": "../food/assets/imgs/NY/upsidePizza1.png",
+    "imgAlt": "pizza",
+    "titleLnk": "http://www.upsidepizza.com/",
+    "titleTxt": "Upside Pizza",
+    "rating": 4.7,
+    "location": "New York, NY" ,
+    "date-visited": "9-04-2025",
+    "price": "$",
+    "cuisine": "Pizza"
+  },
   {
     "imgSrc": "../food/assets/imgs/NY/sweetea1.png",
     "imgAlt": "matcha boba",
@@ -1161,7 +1337,7 @@
     "titleTxt": "Sala Thai",
     "rating": 4.6,
     "location": "New York, NY" ,
-    "date-visited": "11-26-2024",
+    "date-visited": "11-26-2024, 10-1-2025",
     "price": "$$",
     "cuisine": "Thai"
   },
