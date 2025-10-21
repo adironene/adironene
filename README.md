@@ -14,8 +14,11 @@ Hi there. I'm **Phoebe**, and this repository is the foundation of my personal w
 ---
 
 ## 💡 About Me  
-- Currently Pursuing my Master's in Computer Science at ♔ [Columbia University](https://www.columbia.edu/)
+- Currently studying Computer Science, specializing in Machine Learning at ♔ [Columbia University](https://www.columbia.edu/)
+- Joining Google as Software Engineer in Platform and Devices after grad
+- Create art in free time - Acrylic, watercolor, pen and ink, pencils, poster color
 - Dancer for 15+ years in Ballet, Contemporary, Jazz, Lyrical, and Acro
+- Will do anything for cats
 ---
 
 ## 🛠️ Languages & Tools  
