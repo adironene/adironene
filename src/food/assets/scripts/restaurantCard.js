@@ -4,8 +4,10 @@ class restaurantCard extends HTMLElement {
   constructor() {
     super();
     let shadow = this.attachShadow({ mode: "open" });
+
     let markup = document.createElement("article");
     let style = document.createElement("style");
+
     util.fetchCSSAsString("../food/assets/styles/cardStyle.css").then((cssText) => {
       style.textContent = cssText;
     });
@@ -20,10 +22,106 @@ class restaurantCard extends HTMLElement {
     const article = this.shadowRoot.querySelector("article");
     article.innerHTML = '';
 
-    const img = document.createElement('img');
-    img.src = data.imgSrc;
-    img.alt = data.imgAlt;
-    article.appendChild(img);
+    // =============================
+    // Image Carousel
+    // =============================
+
+    const carouselContainer = document.createElement('div');
+    carouselContainer.className = 'carousel-container';
+
+    const imgContainer = document.createElement('div');
+    imgContainer.className = 'carousel-images';
+
+    carouselContainer.appendChild(imgContainer);
+    article.appendChild(carouselContainer);
+
+    const imgPath = data.imgSrc
+    const baseMatch = imgPath.match(/(.*\/)([^\/]+?)(\d+)\.(png|jpg|jpeg|webp)$/i);
+    let basePath, baseName, ext;
+
+    if (baseMatch) {
+      basePath = baseMatch[1]; // e.g. ../food/assets/imgs/NY/
+      baseName = baseMatch[2]; // e.g. name
+      ext = baseMatch[4];      // e.g. png
+    } else {
+      basePath = imgPath.substring(0, imgPath.lastIndexOf('/') + 1);
+      baseName = imgPath.substring(imgPath.lastIndexOf('/') + 1, imgPath.lastIndexOf('.'));
+      ext = imgPath.substring(imgPath.lastIndexOf('.') + 1);
+    }
+
+    console.log("basePath", basePath);
+    console.log("baseName", baseName);
+    console.log("ext", ext);
+
+    let imgIndex = 1;
+    const loadNextImage = (src) => {
+      return new Promise((resolve) => {
+        const img = new Image();
+        img.onload = () => resolve(true);
+        img.onerror = () => resolve(false);
+        img.src = src;
+      });
+    };
+
+    const loadImages = async () => {
+      while(true) {
+        const testSrc = `${basePath}${baseName}${imgIndex}.${ext}`;
+        const exists = await loadNextImage(testSrc);
+        if (!exists) break;
+
+        const img = document.createElement('img');
+        img.src = testSrc;
+        img.alt = baseName;
+        imgContainer.appendChild(img);
+        imgIndex++;
+      }
+    
+      if (imgContainer.children.length === 0){
+        const img = document.createElement('img');
+        img.src = data.imgSrc;
+        img.alt = data.imgAlt;
+        imgContainer.appendChild(img);
+      }
+
+      if (imgContainer.children.length > 1){
+        const leftArrow = document.createElement('button');
+        leftArrow.className = 'carousel-arrow left';
+        leftArrow.textContent = '❮';
+
+        const rightArrow = document.createElement('button');
+        rightArrow.className = 'carousel-arrow right';
+        rightArrow.textContent = '❯';
+
+        carouselContainer.appendChild(leftArrow);
+        carouselContainer.appendChild(rightArrow);
+
+        let currentIndex = 0;
+        const updateCarousel = () => {
+          imgContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+        };
+
+        leftArrow.addEventListener('click', () => {
+          currentIndex = (currentIndex - 1 + imgContainer.children.length) % imgContainer.children.length;
+          updateCarousel()
+        });
+
+        rightArrow.addEventListener('click', () => {
+          currentIndex = (currentIndex + 1) % imgContainer.children.length;
+          updateCarousel()
+        });
+
+        this.shadowRoot.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowLeft') leftArrow.click();
+          if (e.key === 'ArrowRight') rightArrow.click();
+        });
+      }
+    };
+
+    loadImages();
+
+    // =============================
+    // Restaurant Info Section
+    // =============================
 
     const titleP = document.createElement('p');
     titleP.className = 'title';
