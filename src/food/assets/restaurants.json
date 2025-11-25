@@ -1,4 +1,26 @@
-[ 
+[
+  {
+    "imgSrc": "../food/assets/imgs/NY/laoMaSpicy.png",
+    "imgAlt": "dry pot",
+    "titleLnk": "https://laomaspicy.getsauce.com/",
+    "titleTxt": "Lao Ma Spicy",
+    "rating": 3.7,
+    "location": "New York, NY" ,
+    "date-visited": "10-19-2025",
+    "price": "$$",
+    "cuisine": "Chinese"
+  }, 
+  {
+    "imgSrc": "../food/assets/imgs/NY/trudysIceCream.png",
+    "imgAlt": "cookies and ice cream",
+    "titleLnk": "http://trudysicecream.com/",
+    "titleTxt": "Trudy's Ice Cream",
+    "rating": 4.3,
+    "location": "New York, NY" ,
+    "date-visited": "10-18-2025",
+    "price": "$",
+    "cuisine": "Dessert"
+  },
   {
     "imgSrc": "../food/assets/imgs/NY/flyingCock1.png",
     "imgAlt": "Waffle",
