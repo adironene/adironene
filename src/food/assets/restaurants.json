@@ -1,5 +1,38 @@
 [
   {
+    "imgSrc": "../food/assets/imgs/NY/soteCoffee1.png",
+    "imgAlt": "crepe",
+    "titleLnk": "https://sotecoffeeroasters.com/",
+    "titleTxt": "Sote Coffee Roasters",
+    "rating": 4.6,
+    "location": "New York, NY" ,
+    "date-visited": "10-25-2025",
+    "price": "$",
+    "cuisine": "Cafe"
+  }, 
+  {
+    "imgSrc": "../food/assets/imgs/brooklyn/tswirlCrepe.png",
+    "imgAlt": "crepe",
+    "titleLnk": "https://www.t-swirlcrepe.com/",
+    "titleTxt": "T-swirl Crepe",
+    "rating": 4.5,
+    "location": "Brooklyn, NY" ,
+    "date-visited": "10-24-2025",
+    "price": "$",
+    "cuisine": "Dessert"
+  }, 
+  {
+    "imgSrc": "../food/assets/imgs/brooklyn/koi_omakase/koiOmakase1.png",
+    "imgAlt": "tuna nigiri",
+    "titleLnk": "https://maps.app.goo.gl/6LZfPZkKpAyb9rmGA",
+    "titleTxt": "Koi Omakase",
+    "rating": 4.9,
+    "location": "Brooklyn, NY" ,
+    "date-visited": "10-24-2025",
+    "price": "$$$",
+    "cuisine": "Omakase"
+  }, 
+  {
     "imgSrc": "../food/assets/imgs/NY/laoMaSpicy.png",
     "imgAlt": "dry pot",
     "titleLnk": "https://laomaspicy.getsauce.com/",
